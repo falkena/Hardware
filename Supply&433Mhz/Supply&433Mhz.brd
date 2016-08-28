@@ -1554,10 +1554,10 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="11.049" y1="8.382" x2="11.049" y2="-8.382" width="0.127" layer="21"/>
 <wire x1="11.049" y1="-8.382" x2="-11.049" y2="-8.382" width="0.127" layer="21"/>
 <wire x1="-11.049" y1="-8.382" x2="-11.049" y2="8.382" width="0.127" layer="21"/>
-<pad name="IN+0" x="-9.271" y="4.064" drill="1.016" diameter="2.5" shape="square"/>
-<pad name="IN-0" x="-9.271" y="-4.064" drill="1.016" diameter="2.5" shape="square"/>
-<pad name="OUT-0" x="9.271" y="-4.064" drill="1.016" diameter="2.5" shape="square"/>
-<pad name="OUT+0" x="9.271" y="4.064" drill="1.016" diameter="2.5" shape="square"/>
+<pad name="IN+0" x="-9.271" y="4.064" drill="1.1" diameter="2.5" shape="square"/>
+<pad name="IN-0" x="-9.271" y="-4.064" drill="1.1" diameter="2.5" shape="square"/>
+<pad name="OUT-0" x="9.271" y="-4.064" drill="1.1" diameter="2.5" shape="square"/>
+<pad name="OUT+0" x="9.271" y="4.064" drill="1.1" diameter="2.5" shape="square"/>
 <text x="0" y="11.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-11.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 <text x="-7" y="0.25" size="1.778" layer="21" rot="R90" align="center">IN</text>
@@ -1568,10 +1568,10 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="7" y1="-4.5" x2="7" y2="-3.5" width="0.254" layer="21"/>
 <wire x1="7" y1="3.5" x2="7" y2="4.5" width="0.254" layer="21"/>
 <wire x1="7.5" y1="4" x2="6.5" y2="4" width="0.254" layer="21"/>
-<pad name="IN-1" x="-9.271" y="-6.604" drill="1.016" diameter="2.5" shape="square"/>
-<pad name="IN+1" x="-9.271" y="6.604" drill="1.016" diameter="2.5" shape="square"/>
-<pad name="OUT+1" x="9.271" y="6.604" drill="1.016" diameter="2.5" shape="square"/>
-<pad name="OUT-1" x="9.271" y="-6.604" drill="1.016" diameter="2.5" shape="square"/>
+<pad name="IN-1" x="-9.271" y="-6.604" drill="1.1" diameter="2.5" shape="square"/>
+<pad name="IN+1" x="-9.271" y="6.604" drill="1.1" diameter="2.5" shape="square"/>
+<pad name="OUT+1" x="9.271" y="6.604" drill="1.1" diameter="2.5" shape="square"/>
+<pad name="OUT-1" x="9.271" y="-6.604" drill="1.1" diameter="2.5" shape="square"/>
 </package>
 <package name="WIRELESS-RXB6-5V">
 <description>&lt;b&gt;RF Wireless RXB6-5V Receiver&lt;/b&gt; vertically mounted</description>
