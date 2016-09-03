@@ -10025,7 +10025,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="74HC4051_MUX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="D" package="SO16">
+<device name="" package="SO16">
 <connects>
 <connect gate="G$1" pin="A" pad="11"/>
 <connect gate="G$1" pin="B" pad="10"/>
@@ -10088,20 +10088,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.6096" y1="4.572" x2="-0.6604" y2="4.572" width="0.2032" layer="21" curve="-180"/>
 <wire x1="1.4526" y1="4.6228" x2="0.6096" y2="4.6228" width="0.2032" layer="21"/>
 <wire x1="-1.6653" y1="4.6228" x2="-0.6604" y2="4.6228" width="0.2032" layer="21"/>
-<smd name="1" x="-2.8" y="3.81" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="2" x="-2.8" y="2.54" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="3" x="-2.8" y="1.27" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="4" x="-2.8" y="0" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="5" x="-2.8" y="-1.27" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="6" x="-2.8" y="-2.54" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="7" x="-2.8" y="-3.81" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="8" x="2.8" y="-3.81" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="9" x="2.8" y="-2.54" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="10" x="2.8" y="-1.27" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="11" x="2.8" y="0" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="12" x="2.8" y="1.27" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="13" x="2.8" y="2.54" dx="0.6" dy="1.2" layer="1" rot="R270"/>
-<smd name="14" x="2.8" y="3.81" dx="0.6" dy="1.2" layer="1" rot="R270"/>
+<smd name="1" x="-2.87" y="3.81" dx="0.635" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="-2.87" y="2.54" dx="0.635" dy="1.27" layer="1" rot="R90"/>
+<smd name="3" x="-2.87" y="1.27" dx="0.635" dy="1.27" layer="1" rot="R270"/>
+<smd name="4" x="-2.87" y="0" dx="0.635" dy="1.27" layer="1" rot="R270"/>
+<smd name="5" x="-2.87" y="-1.27" dx="0.635" dy="1.27" layer="1" rot="R270"/>
+<smd name="6" x="-2.87" y="-2.54" dx="0.635" dy="1.27" layer="1" rot="R270"/>
+<smd name="7" x="-2.87" y="-3.81" dx="0.635" dy="1.27" layer="1" rot="R270"/>
+<smd name="8" x="2.87" y="-3.81" dx="0.635" dy="1.27" layer="1" rot="R270"/>
+<smd name="9" x="2.87" y="-2.54" dx="0.635" dy="1.27" layer="1" rot="R270"/>
+<smd name="10" x="2.87" y="-1.27" dx="0.635" dy="1.27" layer="1" rot="R270"/>
+<smd name="11" x="2.87" y="0" dx="0.635" dy="1.27" layer="1" rot="R270"/>
+<smd name="12" x="2.87" y="1.27" dx="0.635" dy="1.27" layer="1" rot="R270"/>
+<smd name="13" x="2.87" y="2.54" dx="0.635" dy="1.27" layer="1" rot="R270"/>
+<smd name="14" x="2.87" y="3.81" dx="0.635" dy="1.27" layer="1" rot="R270"/>
 <text x="0.635" y="3.175" size="0.6096" layer="25" ratio="10" rot="R270">&gt;NAME</text>
 <text x="-1.27" y="3.175" size="0.6096" layer="27" rot="R270">&gt;VALUE</text>
 <rectangle x1="-3.04165" y1="3.29565" x2="-2.53365" y2="4.32435" layer="51" rot="R270"/>
