@@ -177,26 +177,26 @@
 <circle x="61.5" y="52.5" radius="3" width="0" layer="30"/>
 <text x="9.5" y="9.5" size="1.778" layer="51" font="vector" distance="0" rot="MR270" align="center">-</text>
 <text x="9.5" y="14.5" size="1.778" layer="51" font="vector" distance="0" rot="MR0" align="center">+</text>
-<wire x1="36.6" y1="9.95" x2="36.6" y2="5.65" width="0.254" layer="51"/>
-<wire x1="36.6" y1="5.65" x2="39.4" y2="5.65" width="0.254" layer="51"/>
-<wire x1="39.4" y1="5.65" x2="39.4" y2="9.95" width="0.254" layer="51"/>
-<wire x1="36.6" y1="9.95" x2="39.4" y2="9.95" width="0.254" layer="51"/>
-<text x="39.9" y="8.8" size="0.635" layer="51" font="vector" ratio="10" align="center-left">INT/NC</text>
-<text x="39.9" y="7.8" size="0.635" layer="51" ratio="10" align="center-left">SCL</text>
-<text x="39.9" y="6.8" size="0.635" layer="51" font="vector" ratio="10" align="center-left">3.3V</text>
-<text x="36.1" y="8.8" size="0.635" layer="51" font="vector" ratio="10" align="center-right">GND</text>
-<text x="36.1" y="7.8" size="0.635" layer="51" font="vector" ratio="10" align="center-right">SDA</text>
-<text x="36.1" y="6.8" size="0.635" layer="51" font="vector" ratio="10" align="center-right">5.0V</text>
-<circle x="37.3" y="8.8" radius="0.25" width="0.254" layer="51"/>
-<wire x1="38.95" y1="8.55" x2="38.95" y2="9.05" width="0.254" layer="51"/>
-<wire x1="38.45" y1="8.55" x2="38.45" y2="9.05" width="0.254" layer="51"/>
-<wire x1="38.45" y1="8.55" x2="38.95" y2="8.55" width="0.254" layer="51"/>
-<circle x="37.3" y="7.8" radius="0.25" width="0.254" layer="51"/>
-<circle x="37.3" y="6.8" radius="0.25" width="0.254" layer="51"/>
-<circle x="38.7" y="6.8" radius="0.25" width="0.254" layer="51"/>
-<circle x="38.7" y="7.8" radius="0.25" width="0.254" layer="51"/>
-<wire x1="38.45" y1="9.05" x2="38.95" y2="9.05" width="0.254" layer="51"/>
-<text x="38" y="10.45" size="0.635" layer="51" font="vector" ratio="10" align="bottom-center">P1</text>
+<wire x1="36.27" y1="9.95" x2="36.27" y2="5.65" width="0.254" layer="51"/>
+<wire x1="36.27" y1="5.65" x2="39.07" y2="5.65" width="0.254" layer="51"/>
+<wire x1="39.07" y1="5.65" x2="39.07" y2="9.95" width="0.254" layer="51"/>
+<wire x1="36.27" y1="9.95" x2="39.07" y2="9.95" width="0.254" layer="51"/>
+<text x="39.57" y="8.8" size="0.8128" layer="51" font="vector" ratio="10" align="center-left">INT/NC</text>
+<text x="39.57" y="7.8" size="0.8128" layer="51" ratio="10" align="center-left">SCL</text>
+<text x="39.57" y="6.8" size="0.8128" layer="51" font="vector" ratio="10" align="center-left">3.3V</text>
+<text x="35.77" y="8.8" size="0.8128" layer="51" font="vector" ratio="10" align="center-right">GND</text>
+<text x="35.77" y="7.8" size="0.8128" layer="51" font="vector" ratio="10" align="center-right">SDA</text>
+<text x="35.77" y="6.8" size="0.8128" layer="51" font="vector" ratio="10" align="center-right">5.0V</text>
+<circle x="36.97" y="8.8" radius="0.25" width="0.254" layer="51"/>
+<wire x1="38.62" y1="8.55" x2="38.62" y2="9.05" width="0.254" layer="51"/>
+<wire x1="38.12" y1="8.55" x2="38.12" y2="9.05" width="0.254" layer="51"/>
+<wire x1="38.12" y1="8.55" x2="38.62" y2="8.55" width="0.254" layer="51"/>
+<circle x="36.97" y="7.8" radius="0.25" width="0.254" layer="51"/>
+<circle x="36.97" y="6.8" radius="0.25" width="0.254" layer="51"/>
+<circle x="38.37" y="6.8" radius="0.25" width="0.254" layer="51"/>
+<circle x="38.37" y="7.8" radius="0.25" width="0.254" layer="51"/>
+<wire x1="38.12" y1="9.05" x2="38.62" y2="9.05" width="0.254" layer="51"/>
+<text x="37.67" y="10.45" size="0.8128" layer="51" font="vector" ratio="10" align="bottom-center">P1</text>
 <circle x="61.5" y="3.5" radius="2.6" width="0" layer="42"/>
 </plain>
 <libraries>
