@@ -496,61 +496,61 @@ design rules under a new name.</description>
 <element name="K1" library="hongfa" package="HF46" value="HF46105" x="21.25" y="22.5" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="21.25" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="21.25" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="21.25" y="22.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="21.25" y="22.5" size="1" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="19.98" y="28.85" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="K2" library="hongfa" package="HF46" value="HF46105" x="29.25" y="22.5" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="29.25" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="29.25" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="29.25" y="22.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="29.25" y="22.5" size="1" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="27.98" y="28.85" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="K3" library="hongfa" package="HF46" value="HF46105" x="37.25" y="22.5" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="37.25" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="37.25" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="37.25" y="22.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="37.25" y="22.5" size="1" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="35.98" y="28.85" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="K4" library="hongfa" package="HF46" value="HF46105" x="45.25" y="22.5" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="45.25" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="45.25" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="45.25" y="22.5" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="45.25" y="22.5" size="1" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="43.98" y="28.85" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="PAD1" library="wirepad" package="SMD2,54-5,08" value="+5V" x="18.9" y="39" smashed="yes" rot="MR0">
-<attribute name="NAME" x="18.9" y="39" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="18.9" y="39" size="1" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="PAD2" library="wirepad" package="SMD2,54-5,08" value="" x="23.6" y="39" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="23.6" y="39" size="0.0254" layer="28" rot="MR0"/>
-<attribute name="NAME" x="23.6" y="39" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="23.6" y="39" size="1" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="PAD3" library="wirepad" package="SMD2,54-5,08" value="" x="31.6" y="39" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="31.6" y="39" size="0.0254" layer="28" rot="MR0"/>
-<attribute name="NAME" x="31.6" y="39" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="31.6" y="39" size="1" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="PAD4" library="wirepad" package="SMD2,54-5,08" value="" x="39.65" y="39" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="39.65" y="39" size="0.0254" layer="28" rot="MR0"/>
-<attribute name="NAME" x="39.65" y="39" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="39.65" y="39" size="1" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="PAD5" library="wirepad" package="SMD2,54-5,08" value="" x="47.6" y="39" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="47.6" y="39" size="0.0254" layer="28" rot="MR0"/>
-<attribute name="NAME" x="47.6" y="39" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="47.6" y="39" size="1" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="Q1" library="con-wuerth" package="691131710002" value="691131710002" x="10.75" y="4.15" smashed="yes" rot="R180">
 <attribute name="VALUE" x="15.75" y="10.178" size="1.27" layer="27" rot="R180"/>
-<attribute name="NAME" x="4.75" y="4.15" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="4.75" y="4.15" size="1" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="Q2" library="con-wuerth" package="691131710002" value="691131710002" x="25.75" y="4.15" smashed="yes">
 <attribute name="VALUE" x="20.75" y="-1.878" size="1.27" layer="27"/>
-<attribute name="NAME" x="19.75" y="4.15" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="19.75" y="4.15" size="1" layer="25" font="vector" ratio="10" align="center"/>
 </element>
 <element name="Q3" library="con-wuerth" package="691131710002" value="691131710002" x="40.75" y="4.15" smashed="yes">
 <attribute name="VALUE" x="35.75" y="-1.878" size="1.27" layer="27"/>
-<attribute name="NAME" x="46.85" y="4.15" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="46.85" y="4.15" size="1" layer="25" font="vector" ratio="10" align="center"/>
 </element>
 <element name="Q4" library="con-wuerth" package="691131710002" value="691131710002" x="55.75" y="4.15" smashed="yes">
 <attribute name="VALUE" x="50.75" y="-1.878" size="1.27" layer="27"/>
-<attribute name="NAME" x="61.85" y="4.15" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="61.85" y="4.15" size="1" layer="25" font="vector" ratio="10" align="center"/>
 </element>
 </elements>
 <signals>
