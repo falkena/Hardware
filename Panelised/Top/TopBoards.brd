@@ -22,8 +22,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -239,6 +239,8 @@
 <wire x1="49.45" y1="38.12" x2="49.45" y2="38.62" width="0.254" layer="25"/>
 <text x="48.05" y="37.67" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">P1</text>
 <circle x="55" y="61.5" radius="2.6" width="0" layer="42"/>
+<circle x="6" y="3.5" radius="2.6" width="0" layer="42"/>
+<circle x="6" y="61.5" radius="2.6" width="0" layer="42"/>
 </plain>
 <libraries>
 <library name="hongfa">
@@ -2355,9 +2357,9 @@ design rules under a new name.</description>
 <contactref element="MP1584-2" pad="OUT-0"/>
 <contactref element="MP1584-1" pad="OUT-0"/>
 <polygon width="1.016" layer="16" isolate="0.4064" thermals="no">
-<vertex x="58.5" y="20"/>
-<vertex x="12.5" y="20"/>
-<vertex x="12.5" y="65"/>
+<vertex x="58.5" y="27.5"/>
+<vertex x="6.87" y="27.5"/>
+<vertex x="6.87" y="65"/>
 <vertex x="58.5" y="65"/>
 </polygon>
 <contactref element="C1" pad="1"/>
@@ -2410,6 +2412,12 @@ design rules under a new name.</description>
 <wire x1="34.625" y1="27.5" x2="46.5" y2="27.5" width="1.016" layer="16"/>
 <wire x1="12.5" y1="3.5" x2="11.7" y2="3.5" width="1.016" layer="16"/>
 <wire x1="11.7" y1="3.5" x2="8.12" y2="7.08" width="1.016" layer="16"/>
+<polygon width="1.016" layer="16" isolate="0.4064" thermals="no">
+<vertex x="6.87" y="38.6"/>
+<vertex x="12.5" y="38.5"/>
+<vertex x="12.5" y="0"/>
+<vertex x="6.87" y="0"/>
+</polygon>
 </signal>
 <signal name="+24V">
 <contactref element="D3" pad="A"/>
