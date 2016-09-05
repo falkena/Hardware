@@ -1,0 +1,1 @@
+<Path>\python.exe <Path>\merge.py TopBoards.brd DigitalIO_3_3V_LevelShift.brd --rotation 90 "Supply&433Mhz.brd" --rotation 90 --offx 58.5mm
