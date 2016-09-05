@@ -147,7 +147,7 @@
 <wire x1="64" y1="82" x2="0" y2="82" width="0" layer="20"/>
 <wire x1="0" y1="82" x2="0" y2="0" width="0" layer="20"/>
 <hole x="7" y="16" drill="2.5"/>
-<hole x="57" y="67" drill="2.5"/>
+<hole x="57" y="66" drill="2.5"/>
 <text x="59" y="20" size="1.778" layer="16" font="vector" ratio="10" rot="MR0" align="center">4AI</text>
 <circle x="36.9" y="78.2" radius="1" width="1.6" layer="30"/>
 <circle x="41.9" y="78.2" radius="1" width="1.6" layer="30"/>

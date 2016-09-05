@@ -146,7 +146,7 @@
 <wire x1="64" y1="0" x2="64" y2="82" width="0" layer="20"/>
 <wire x1="64" y1="82" x2="0" y2="82" width="0" layer="20"/>
 <wire x1="0" y1="82" x2="0" y2="0" width="0" layer="20"/>
-<hole x="7" y="66" drill="2.5"/>
+<hole x="57" y="66" drill="2.5"/>
 <text x="57" y="26.75" size="1.778" layer="16" font="vector" ratio="10" rot="MR180" align="center">8DI/8DO</text>
 <hole x="7" y="16" drill="2.5"/>
 <hole x="57" y="59.1" drill="2.75"/>
