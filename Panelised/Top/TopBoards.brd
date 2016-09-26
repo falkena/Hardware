@@ -185,19 +185,19 @@
 <circle x="-31.85" y="47.6" radius="0.5" width="0.6" layer="30"/>
 <wire x1="58.5" y1="3" x2="58.5" y2="62" width="0" layer="20"/>
 <wire x1="58.5" y1="62" x2="55.5" y2="65" width="0" layer="20" curve="90"/>
-<wire x1="55.5" y1="65" x2="6" y2="65" width="0" layer="20"/>
-<wire x1="6" y1="65" x2="2" y2="62" width="0" layer="20" curve="90"/>
+<wire x1="55.5" y1="65" x2="5" y2="65" width="0" layer="20"/>
+<wire x1="5" y1="65" x2="2" y2="62" width="0" layer="20" curve="90"/>
 <wire x1="2" y1="62" x2="2" y2="3" width="0" layer="20"/>
-<wire x1="2" y1="3" x2="6" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="6" y1="0" x2="20" y2="0" width="0" layer="20"/>
-<wire x1="20" y1="0" x2="22" y2="2" width="0" layer="20" curve="61.18918"/>
-<wire x1="22" y1="2" x2="22" y2="3" width="0" layer="20"/>
-<wire x1="22" y1="3" x2="24" y2="5" width="0" layer="20" curve="-61.189123"/>
-<wire x1="24" y1="5" x2="37" y2="5" width="0" layer="20"/>
-<wire x1="37" y1="5" x2="39" y2="3" width="0" layer="20" curve="-90"/>
-<wire x1="39" y1="3" x2="39" y2="2" width="0" layer="20"/>
-<wire x1="39" y1="2" x2="41" y2="0" width="0" layer="20" curve="64.86549"/>
-<wire x1="41" y1="0" x2="55.5" y2="0" width="0" layer="20"/>
+<wire x1="2" y1="3" x2="5" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="5" y1="0" x2="21" y2="0" width="0" layer="20"/>
+<wire x1="21" y1="0" x2="22" y2="1" width="0" layer="20" curve="90"/>
+<wire x1="22" y1="1" x2="22" y2="4" width="0" layer="20"/>
+<wire x1="22" y1="4" x2="23" y2="5" width="0" layer="20" curve="-90"/>
+<wire x1="23" y1="5" x2="38" y2="5" width="0" layer="20"/>
+<wire x1="38" y1="5" x2="39" y2="4" width="0" layer="20" curve="-90"/>
+<wire x1="39" y1="4" x2="39" y2="1" width="0" layer="20"/>
+<wire x1="39" y1="1" x2="40" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="40" y1="0" x2="55.5" y2="0" width="0" layer="20"/>
 <wire x1="55.5" y1="0" x2="58.5" y2="3" width="0" layer="20" curve="90"/>
 <hole x="55" y="3.5" drill="2.75"/>
 <hole x="55" y="61.5" drill="2.75"/>
@@ -212,10 +212,10 @@
 <circle x="49" y="4.25" radius="1" width="1.6" layer="30"/>
 <circle x="44" y="4.25" radius="1" width="1.6" layer="30"/>
 <text x="56" y="13" size="1.778" layer="16" font="vector" ratio="10" rot="MR270" align="center">Power</text>
-<circle x="55" y="3.5" radius="3" width="0" layer="30"/>
-<circle x="55" y="61.5" radius="3" width="0" layer="30"/>
-<circle x="6" y="3.5" radius="3" width="0" layer="30"/>
-<circle x="6" y="61.5" radius="3" width="0" layer="30"/>
+<circle x="55" y="3.5" radius="3.1" width="0" layer="30"/>
+<circle x="55" y="61.5" radius="3.1" width="0" layer="30"/>
+<circle x="6" y="3.5" radius="3.1" width="0" layer="30"/>
+<circle x="6" y="61.5" radius="3.1" width="0" layer="30"/>
 <text x="49" y="9.5" size="1.778" layer="25" font="vector" distance="0" rot="MR180" align="center">-</text>
 <text x="44" y="9.5" size="1.778" layer="25" font="vector" distance="0" rot="MR270" align="center">+</text>
 <wire x1="48.55" y1="36.27" x2="52.85" y2="36.27" width="0.254" layer="25"/>
@@ -238,9 +238,9 @@
 <circle x="50.7" y="38.37" radius="0.25" width="0.254" layer="25"/>
 <wire x1="49.45" y1="38.12" x2="49.45" y2="38.62" width="0.254" layer="25"/>
 <text x="48.05" y="37.67" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">P1</text>
-<circle x="55" y="61.5" radius="2.6" width="0" layer="42"/>
-<circle x="6" y="3.5" radius="2.6" width="0" layer="42"/>
-<circle x="6" y="61.5" radius="2.6" width="0" layer="42"/>
+<circle x="55" y="61.5" radius="2.7" width="0" layer="42"/>
+<circle x="6" y="3.5" radius="2.7" width="0" layer="42"/>
+<circle x="6" y="61.5" radius="2.7" width="0" layer="42"/>
 </plain>
 <libraries>
 <library name="hongfa">
