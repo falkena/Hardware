@@ -990,12 +990,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+24V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="AGND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -1015,19 +1009,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+24V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AGND" prefix="AGND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="VR1" symbol="AGND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -6218,7 +6199,6 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <part name="F2" library="SparkFun-PowerIC" deviceset="PTC" device="PTH"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+24V" device=""/>
-<part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="transistor-small-signal" deviceset="BS170" device="">
 <attribute name="MF" value="ON SEMICONDUCTOR"/>
@@ -6242,6 +6222,7 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <part name="C1" library="capacitor-wima" deviceset="C" device="2,5-3" value="100nF"/>
 <part name="K1" library="Board_to_Board_Connectors_rev15d" deviceset="61004021821" device="" value="61004021821"/>
 <part name="RXB6" library="diy-modules" deviceset="WIRELESS-RXB6-5V" device=""/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6270,7 +6251,6 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <instance part="P+1" gate="1" x="33.02" y="78.74" smashed="yes" rot="R270">
 <attribute name="VALUE" x="35.56" y="78.74" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="AGND1" gate="VR1" x="22.86" y="63.5"/>
 <instance part="GND2" gate="1" x="114.3" y="17.78"/>
 <instance part="Q1" gate="1" x="129.54" y="66.04" smashed="yes" rot="R180">
 <attribute name="OC_FARNELL" x="129.54" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
@@ -6305,6 +6285,7 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 </instance>
 <instance part="K1" gate="G$1" x="182.88" y="63.5" rot="MR0"/>
 <instance part="RXB6" gate="G$1" x="152.4" y="40.64" rot="MR0"/>
+<instance part="GND3" gate="1" x="22.86" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -6320,23 +6301,6 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <pinref part="24V" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="78.74" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="AGND" class="0">
-<segment>
-<wire x1="22.86" y1="76.2" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="81.28" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="76.2" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="AGND1" gate="VR1" pin="AGND"/>
-<wire x1="22.86" y1="68.58" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="MP1584-2" gate="G$1" pin="IN-"/>
-<wire x1="22.86" y1="88.9" x2="35.56" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="MP1584-1" gate="G$1" pin="IN-"/>
-<wire x1="22.86" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
-<junction x="22.86" y="68.58"/>
-<pinref part="24V" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
-<junction x="22.86" y="81.28"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6395,6 +6359,21 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <wire x1="172.72" y1="55.88" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
 <junction x="172.72" y="55.88"/>
 <junction x="119.38" y="38.1"/>
+</segment>
+<segment>
+<wire x1="22.86" y1="76.2" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="81.28" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="76.2" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="68.58" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="MP1584-2" gate="G$1" pin="IN-"/>
+<wire x1="22.86" y1="88.9" x2="35.56" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="MP1584-1" gate="G$1" pin="IN-"/>
+<wire x1="22.86" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
+<junction x="22.86" y="68.58"/>
+<pinref part="24V" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
+<junction x="22.86" y="81.28"/>
+<pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$2" class="0">
