@@ -643,32 +643,6 @@ Based on the following sources:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="C4111-15">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 5.3 mm, horizontal, grid 15.24 mm</description>
-<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.27" y2="0.5842" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.5842" x2="1.27" y2="-0.5842" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.5842" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.5842" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.667" x2="-5.08" y2="2.667" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.667" x2="5.08" y2="-2.667" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.667" x2="5.08" y2="2.667" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-2.667" x2="-5.08" y2="-2.667" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.5842" x2="0.381" y2="-0.5842" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0" x2="6.223" y2="0" width="1.27" layer="51"/>
-<wire x1="-7.62" y1="0" x2="-6.223" y2="0" width="1.27" layer="51"/>
-<wire x1="-0.381" y1="0.5842" x2="0" y2="0.5842" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.5842" x2="0" y2="0" width="0.1524" layer="21"/>
-<pad name="C" x="-7.62" y="0" drill="1.4986" shape="long"/>
-<pad name="A" x="7.62" y="0" drill="1.4986" shape="long"/>
-<text x="-2.54" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-5.08" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<rectangle x1="-5.969" y1="-0.635" x2="-5.08" y2="0.635" layer="21"/>
-<rectangle x1="5.08" y1="-0.635" x2="5.969" y2="0.635" layer="21"/>
-<rectangle x1="-4.318" y1="-2.667" x2="-3.302" y2="2.667" layer="21"/>
-</package>
 <package name="DO35-10">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 diameter 2 mm, horizontal, grid 10.16 mm</description>
@@ -742,21 +716,6 @@ diameter 2 mm, vertical, grid 2.5 mm</description>
 </package>
 </packages>
 <symbols>
-<symbol name="SCHOTTKY">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
 <symbol name="D">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
@@ -772,24 +731,6 @@ diameter 2 mm, vertical, grid 2.5 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1N5908" prefix="D">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-schottky</description>
-<gates>
-<gate name="1" symbol="SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C4111-15">
-<connects>
-<connect gate="1" pin="A" pad="A"/>
-<connect gate="1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1N4148" prefix="D">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 high speed (Philips)</description>
@@ -6193,8 +6134,6 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <part name="X1" library="adafruit" deviceset="SMACONNECTOR" device=""/>
 <part name="P1" library="con-hirose-df11" deviceset="DF11-06-2DSA" device=""/>
 <part name="24V" library="con-wuerth" deviceset="691131710002" device=""/>
-<part name="D1" library="diode" deviceset="1N5908" device=""/>
-<part name="D2" library="diode" deviceset="1N5908" device=""/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="PTH"/>
 <part name="F2" library="SparkFun-PowerIC" deviceset="PTC" device="PTH"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -6237,14 +6176,6 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <attribute name="VALUE" x="109.22" y="63.5" size="1.778" layer="95" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="24V" gate="G$1" x="20.32" y="81.28" rot="MR0"/>
-<instance part="D1" gate="1" x="88.9" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="86.995" y="81.534" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="91.44" y="83.82" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="D2" gate="1" x="88.9" y="73.66" smashed="yes" rot="R270">
-<attribute name="NAME" x="90.805" y="75.946" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="86.36" y="73.66" size="1.778" layer="96" rot="R270" align="top-center"/>
-</instance>
 <instance part="F1" gate="G$1" x="78.74" y="99.06" rot="R180"/>
 <instance part="F2" gate="G$1" x="76.2" y="58.42"/>
 <instance part="GND1" gate="1" x="63.5" y="78.74" rot="R270"/>
@@ -6307,12 +6238,7 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="66.04" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="D2" gate="1" pin="A"/>
 <wire x1="68.58" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="78.74" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="D1" gate="1" pin="A"/>
-<wire x1="88.9" y1="78.74" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
-<junction x="88.9" y="78.74"/>
 <wire x1="88.9" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="78.74" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="2"/>
@@ -6380,15 +6306,10 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <segment>
 <pinref part="F2" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="58.42" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="D2" gate="1" pin="C"/>
-<wire x1="88.9" y1="68.58" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="6"/>
 <wire x1="101.6" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
-<junction x="88.9" y="68.58"/>
 <wire x1="88.9" y1="68.58" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="58.42" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="58.42" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
 <junction x="88.9" y="58.42"/>
@@ -6494,13 +6415,9 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="D1" gate="1" pin="C"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="99.06" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="88.9" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
-<junction x="88.9" y="99.06"/>
 <wire x1="177.8" y1="99.06" x2="193.04" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="99.06" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="K1" gate="G$1" pin="39"/>
