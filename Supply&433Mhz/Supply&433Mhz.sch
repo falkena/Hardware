@@ -8141,8 +8141,8 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 </part>
 <part name="MP1584-2" library="diy-modules" deviceset="DC-DC-STEP-DOWN-MP1584" device=""/>
 <part name="MP1584-1" library="diy-modules" deviceset="DC-DC-STEP-DOWN-MP1584" device=""/>
-<part name="D3" library="diode" deviceset="DIODE-" device="DO41-7.6" value="SB160"/>
-<part name="D4" library="diode" deviceset="DIODE-" device="DO41-7.6" value="SB160"/>
+<part name="D3" library="diode" deviceset="DIODE-" device="DO41-7.6" value="SB1H100"/>
+<part name="D4" library="diode" deviceset="DIODE-" device="DO41-7.6" value="SB1H100"/>
 <part name="C1" library="capacitor-wima" deviceset="C" device="2,5-3" value="100nF"/>
 <part name="K1" library="Board_to_Board_Connectors_rev15d" deviceset="61004021821" device="" value="61004021821"/>
 <part name="RXB6" library="diy-modules" deviceset="WIRELESS-RXB6-5V" device=""/>
