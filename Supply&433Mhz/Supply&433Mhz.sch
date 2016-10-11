@@ -8129,12 +8129,12 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <attribute name="MPN" value="BS170G"/>
 <attribute name="OC_FARNELL" value="9556192"/>
 </part>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0204/2V" value="10K">
+<part name="R2" library="rcl" deviceset="R-EU_" device="0204/2V" value="1K">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0204/2V" value="10K">
+<part name="R1" library="rcl" deviceset="R-EU_" device="0204/2V" value="1K">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -8183,10 +8183,10 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <attribute name="NAME" x="132.08" y="68.58" size="1.778" layer="95" rot="R180" align="top-right"/>
 <attribute name="VALUE" x="132.08" y="63.5" size="1.778" layer="96" rot="R180" align="bottom-right"/>
 </instance>
-<instance part="R2" gate="G$1" x="132.08" y="76.2">
-<attribute name="OC_FARNELL" x="132.08" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="132.08" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="132.08" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="R2" gate="G$1" x="132.08" y="73.66">
+<attribute name="OC_FARNELL" x="132.08" y="73.66" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MF" x="132.08" y="73.66" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="132.08" y="73.66" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="119.38" y="55.88">
 <attribute name="OC_FARNELL" x="119.38" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
@@ -8328,15 +8328,14 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <net name="N$69" class="0">
 <segment>
 <pinref part="Q1" gate="1" pin="S"/>
-<wire x1="127" y1="71.12" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="71.12" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="127" y1="76.2" x2="127" y2="71.12" width="0.1524" layer="91"/>
-<junction x="127" y="71.12"/>
+<wire x1="127" y1="71.12" x2="127" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="127" y1="73.66" x2="127" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="127" y1="78.74" x2="167.64" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="78.74" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="58.42" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="53.34" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="K1" gate="G$1" pin="19"/>
 <wire x1="167.64" y1="40.64" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
+<junction x="127" y="73.66"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -8384,7 +8383,7 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="1" pin="G"/>
 <wire x1="134.62" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="66.04" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="66.04" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="5"/>
 <wire x1="116.84" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="66.04" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
