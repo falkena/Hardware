@@ -459,6 +459,30 @@
 <text x="-4.7625" y="-2.54" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
 <text x="5.715" y="-2.54" size="1.016" layer="25" ratio="18" rot="R90">&gt;LABEL</text>
 </package>
+<package name="DF11-06DP-2DS">
+<description>&lt;b&gt;HEADER&lt;/b&gt;</description>
+<pad name="1" x="2" y="-1" drill="0.9144" shape="square" rot="R90"/>
+<pad name="2" x="2" y="1" drill="0.9144" rot="R90"/>
+<pad name="3" x="0" y="-1" drill="0.9144" rot="R90"/>
+<pad name="4" x="0" y="1" drill="0.9144" rot="R90"/>
+<pad name="5" x="-2" y="-1" drill="0.9144" rot="R90"/>
+<pad name="6" x="-2" y="1" drill="0.9144" rot="R90"/>
+<wire x1="-4" y1="8.4" x2="4" y2="8.4" width="0.0508" layer="51"/>
+<wire x1="4" y1="8.4" x2="4" y2="-1.7" width="0.0508" layer="51"/>
+<wire x1="4" y1="-1.7" x2="-4" y2="-1.7" width="0.0508" layer="51"/>
+<wire x1="-4" y1="-1.7" x2="-4" y2="8.4" width="0.0508" layer="51"/>
+<wire x1="-4.3" y1="8.7" x2="4.3" y2="8.7" width="0.254" layer="21"/>
+<wire x1="4.3" y1="8.7" x2="4.3" y2="-2" width="0.254" layer="21"/>
+<wire x1="4.3" y1="-2" x2="-4.3" y2="-2" width="0.254" layer="21"/>
+<wire x1="-4.3" y1="-2" x2="-4.3" y2="8.7" width="0.254" layer="21"/>
+<polygon width="0.254" layer="21">
+<vertex x="3.3" y="-0.4"/>
+<vertex x="3" y="-0.9"/>
+<vertex x="3.6" y="-0.9"/>
+</polygon>
+<text x="-4.7625" y="-1.27" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-1.27" size="1.016" layer="25" ratio="18" rot="R90">&gt;LABEL</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ME03-2">
@@ -483,13 +507,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DF11-06-2DSA" prefix="P">
+<deviceset name="DF11-06-2" prefix="P">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ME03-2" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="DF11-06DP-2DSA">
+<device name="DSA" package="DF11-06DP-2DSA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -502,6 +526,19 @@
 <technology name="">
 <attribute name="LABEL" value="" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="DS" package="DF11-06DP-2DS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -8115,7 +8152,7 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 </classes>
 <parts>
 <part name="X1" library="adafruit" deviceset="SMACONNECTOR" device=""/>
-<part name="P1" library="con-hirose-df11" deviceset="DF11-06-2DSA" device=""/>
+<part name="P1" library="con-hirose-df11" deviceset="DF11-06-2" device="DS" value="DF11-06-2DS"/>
 <part name="24V" library="con-wuerth" deviceset="691131710002" device=""/>
 <part name="D1" library="diode" deviceset="1N5908" device=""/>
 <part name="D2" library="diode" deviceset="1N5908" device=""/>
