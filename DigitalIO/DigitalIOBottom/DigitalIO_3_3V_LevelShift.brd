@@ -210,10 +210,10 @@
 <circle x="7" y="22.9" radius="2.6" width="0" layer="30"/>
 <circle x="57" y="22.9" radius="2.6" width="0" layer="30"/>
 <circle x="57" y="59.1" radius="2.6" width="0" layer="30"/>
-<circle x="7" y="59.1" radius="2.25" width="0" layer="42"/>
-<circle x="57" y="59.1" radius="2.25" width="0" layer="42"/>
-<circle x="57" y="22.9" radius="2.25" width="0" layer="42"/>
-<circle x="7" y="22.9" radius="2.25" width="0" layer="42"/>
+<circle x="7" y="59.1" radius="2.325" width="0" layer="42"/>
+<circle x="57" y="59.1" radius="2.325" width="0" layer="42"/>
+<circle x="57" y="22.9" radius="2.325" width="0" layer="42"/>
+<circle x="7" y="22.9" radius="2.325" width="0" layer="42"/>
 <circle x="7" y="22.9" radius="2.6" width="0" layer="29"/>
 <circle x="7" y="59.1" radius="2.6" width="0" layer="29"/>
 <circle x="57" y="59.1" radius="2.6" width="0" layer="29"/>
