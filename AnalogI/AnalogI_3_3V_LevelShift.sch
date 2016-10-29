@@ -12439,7 +12439,7 @@ naming: grid - package width</description>
 <wire x1="-99.06" y1="17.78" x2="-99.06" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="AGND" class="0">
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="IC2" gate="G$1" pin="GND1"/>
