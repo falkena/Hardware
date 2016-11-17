@@ -6561,10 +6561,10 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="11.049" y1="8.382" x2="11.049" y2="-8.382" width="0.127" layer="21"/>
 <wire x1="11.049" y1="-8.382" x2="-11.049" y2="-8.382" width="0.127" layer="21"/>
 <wire x1="-11.049" y1="-8.382" x2="-11.049" y2="8.382" width="0.127" layer="21"/>
-<pad name="IN+0" x="-9.271" y="4.064" drill="1.1" diameter="2.5" shape="square"/>
-<pad name="IN-0" x="-9.271" y="-4.064" drill="1.1" diameter="2.5" shape="square"/>
-<pad name="OUT-0" x="9.271" y="-4.064" drill="1.1" diameter="2.5" shape="square"/>
-<pad name="OUT+0" x="9.271" y="4.064" drill="1.1" diameter="2.5" shape="square"/>
+<pad name="IN+0" x="-9.271" y="4.064" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
+<pad name="IN-0" x="-9.271" y="-4.064" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
+<pad name="OUT-0" x="9.271" y="-4.064" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
+<pad name="OUT+0" x="9.271" y="4.064" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
 <text x="0" y="11.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-11.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 <text x="-7" y="0.25" size="1.778" layer="21" rot="R90" align="center">IN</text>
@@ -6575,10 +6575,10 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="7" y1="-4.5" x2="7" y2="-3.5" width="0.254" layer="21"/>
 <wire x1="7" y1="3.5" x2="7" y2="4.5" width="0.254" layer="21"/>
 <wire x1="7.5" y1="4" x2="6.5" y2="4" width="0.254" layer="21"/>
-<pad name="IN-1" x="-9.271" y="-6.604" drill="1.1" diameter="2.5" shape="square"/>
-<pad name="IN+1" x="-9.271" y="6.604" drill="1.1" diameter="2.5" shape="square"/>
-<pad name="OUT+1" x="9.271" y="6.604" drill="1.1" diameter="2.5" shape="square"/>
-<pad name="OUT-1" x="9.271" y="-6.604" drill="1.1" diameter="2.5" shape="square"/>
+<pad name="IN-1" x="-9.271" y="-6.604" drill="1.1"/>
+<pad name="IN+1" x="-9.271" y="6.604" drill="1.1" rot="R270"/>
+<pad name="OUT+1" x="9.271" y="6.604" drill="1.1"/>
+<pad name="OUT-1" x="9.271" y="-6.604" drill="1.1"/>
 </package>
 <package name="WIRELESS-RXB6-5V">
 <description>&lt;b&gt;RF Wireless RXB6-5V Receiver&lt;/b&gt; vertically mounted</description>
@@ -8285,8 +8285,8 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <instance part="F1" gate="G$1" x="83.82" y="99.06" rot="R180"/>
 <instance part="F2" gate="G$1" x="81.28" y="58.42"/>
 <instance part="GND1" gate="1" x="63.5" y="78.74" rot="R270"/>
-<instance part="P+1" gate="1" x="33.02" y="78.74" smashed="yes" rot="R270">
-<attribute name="VALUE" x="35.56" y="78.74" size="1.778" layer="96" align="center-left"/>
+<instance part="P+1" gate="1" x="33.02" y="81.28" smashed="yes" rot="R270">
+<attribute name="VALUE" x="35.56" y="81.28" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND2" gate="1" x="132.08" y="15.24"/>
 <instance part="Q1" gate="1" x="142.24" y="68.58" smashed="yes" rot="MR180">
@@ -8334,14 +8334,15 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <net name="+24V" class="0">
 <segment>
 <pinref part="P+1" gate="1" pin="+24V"/>
-<wire x1="27.94" y1="78.74" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="78.74" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
-<junction x="27.94" y="78.74"/>
+<wire x1="27.94" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
+<junction x="27.94" y="81.28"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="D4" gate="G$1" pin="A"/>
-<pinref part="24V" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="78.74" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="81.28" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="81.28" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="24V" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
+<junction x="27.94" y="81.28"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8413,7 +8414,8 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <junction x="137.16" y="33.02"/>
 </segment>
 <segment>
-<wire x1="22.86" y1="76.2" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="76.2" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="78.74" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="81.28" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="76.2" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="68.58" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
@@ -8422,10 +8424,10 @@ Created 2014-05-30, Karrer Zheng&lt;br&gt;
 <pinref part="MP1584-1" gate="G$1" pin="IN-"/>
 <wire x1="22.86" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
 <junction x="22.86" y="68.58"/>
-<pinref part="24V" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
-<junction x="22.86" y="81.28"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="24V" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
+<junction x="22.86" y="78.74"/>
 </segment>
 </net>
 <net name="N$2" class="0">
