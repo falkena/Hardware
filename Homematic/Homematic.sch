@@ -9298,7 +9298,7 @@ All pins connected</description>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="C6" library="capacitor-wima" deviceset="C" device="2,5-3" value="100nF"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0204/5" value="10K">
+<part name="R2" library="rcl" deviceset="R-EU_" device="0204/2V" value="10K">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
