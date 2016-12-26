@@ -9378,9 +9378,9 @@ All pins connected</description>
 <attribute name="NAME" x="226.06" y="117.729" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="217.17" y="120.269" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C5" gate="G$1" x="246.38" y="115.57" smashed="yes">
-<attribute name="NAME" x="243.84" y="113.411" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="252.73" y="110.871" size="1.778" layer="96" rot="R90"/>
+<instance part="C5" gate="G$1" x="246.38" y="118.11" smashed="yes">
+<attribute name="NAME" x="243.84" y="115.951" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="252.73" y="113.411" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND5" gate="1" x="233.68" y="104.14"/>
 <instance part="P+2" gate="1" x="223.52" y="129.54"/>
@@ -9507,7 +9507,7 @@ All pins connected</description>
 <wire x1="233.68" y1="114.3" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="106.68" x2="246.38" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="110.49" x2="246.38" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="113.03" x2="246.38" y2="106.68" width="0.1524" layer="91"/>
 <junction x="246.38" y="106.68"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="113.03" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
@@ -9692,7 +9692,7 @@ All pins connected</description>
 <wire x1="254" y1="96.52" x2="254" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="254" y1="91.44" x2="256.54" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="118.11" x2="246.38" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="120.65" x2="246.38" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <junction x="254" y="106.68"/>
 <pinref part="IC2" gate="1" pin="OUT"/>
