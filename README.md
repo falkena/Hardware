@@ -3,7 +3,7 @@ Some hardware extensions i developed for RaspberryPi.
 
 Boards are made for rail - din enclosures.
 
-Boards and schematics are published under Open Hardware Licence:
+Boards and schematics are published under Open Hardware License:
 http://www.ohwr.org/licenses/cern-ohl/v1.2
 
 DigitalIO
