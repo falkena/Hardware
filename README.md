@@ -28,8 +28,7 @@ Very special thanks to the guys from http://www.mikrocontroller.net
 Eagle
 -------
 Contains some cheap DIY boards i've used. Follow components are modeled now:
-Markup : ```javascript
-         ```
+```
 * RXB6 wireless receiver module
 * RXB8 wireless receiver module
 * CC1101 wireless transceiver/receiver module
