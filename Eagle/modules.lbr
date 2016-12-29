@@ -65,8 +65,8 @@ The modules are intend to work with microprocessor-based platforms such as &lt;a
 &lt;br&gt;
 By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
 &lt;br&gt;
-&lt;i&gt;Created by: Alexander Falkenstern&lt;/i&gt;&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Released under the Open Hardware License: &lt;a href="http://www.ohwr.org/licenses/cern-ohl/v1.2"&gt;http://www.ohwr.org/licenses/cern-ohl/v1.2&lt;/a&gt;&lt;/i&gt;
+Created by: Alexander Falkenstern&lt;br&gt;&lt;br&gt;
+Released under the Creative Commons Attribution 4.0 International License: &lt;a href="http://creativecommons.org/licenses/by/4.0"&gt;http://creativecommons.org/licenses/by/4.0&lt;/a&gt;
 &lt;br&gt;&lt;br&gt;</description>
 <packages>
 <package name="HM-MOD-RPI-PCB">

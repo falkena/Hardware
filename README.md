@@ -25,4 +25,12 @@ Board can be driven for example with Pi4J.
 
 Very special thanks to the guys from http://www.mikrocontroller.net
 
+Eagle
+-------
+Contains some cheap DIY boards i've used. Follow components are modeled now:
+RXB6 wireless receiver module
+RXB8 wireless receiver module
+CC1101 wireless transceiver/receiver module
+MP1584 dc/dc step-down module
+
 Write me a ticket please on any questions. I'll answer a.s.a.p.
