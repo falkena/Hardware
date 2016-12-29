@@ -6558,136 +6558,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="diy-modules">
-<description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;
-The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
-The modules are intend to work with microprocessor-based platforms such as &lt;a href="http://arduino.cc"&gt;Arduino&lt;/a&gt;, &lt;a href="http://raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, &lt;a href="http://cubieboard.org/"&gt;CubieBoard&lt;/a&gt;, &lt;a href="http://beagleboard.org/"&gt;BeagleBone&lt;/a&gt; and many others. There are many manufacturers of the modules in the world. Almost all of them can be bought on &lt;a href="ebay.com"&gt;ebay.com&lt;/a&gt;.&lt;br&gt;
-&lt;br&gt;
-By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
-&lt;br&gt;
-The latest version, examples, photos and much more can be found at: &lt;b&gt;&lt;a href="http://diymodules.org/eagle"&gt;diymodules.org/eagle&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailto:eagle@diymodules.org"&gt;eagle@diymodules.org&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Version: 1.0.1 (2015-Apr-26)&lt;/i&gt;&lt;br&gt;
-&lt;i&gt;Created by: Miroslaw Brudnowski&lt;/i&gt;&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Released under the Creative Commons Attribution 4.0 International License: &lt;a href="http://creativecommons.org/licenses/by/4.0"&gt;http://creativecommons.org/licenses/by/4.0&lt;/a&gt;&lt;/i&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;center&gt;&lt;a href="http://diymodules.org/eagle"&gt;&lt;img src="http://diymodules.org/img/diymodules-lbr-image.php?v=1.0.1" alt="DIYmodules.org"&gt;&lt;/a&gt;&lt;/center&gt;</description>
-<packages>
-<package name="DC-DC-STEP-DOWN-MP1584">
-<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584-ADJ&lt;/b&gt; chip</description>
-<wire x1="-11.049" y1="8.382" x2="11.049" y2="8.382" width="0.127" layer="21"/>
-<wire x1="11.049" y1="8.382" x2="11.049" y2="-8.382" width="0.127" layer="21"/>
-<wire x1="11.049" y1="-8.382" x2="-11.049" y2="-8.382" width="0.127" layer="21"/>
-<wire x1="-11.049" y1="-8.382" x2="-11.049" y2="8.382" width="0.127" layer="21"/>
-<pad name="IN-0" x="-9.271" y="4.064" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
-<pad name="IN+0" x="-9.271" y="-4.064" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
-<pad name="OUT+0" x="9.271" y="-4.064" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
-<pad name="OUT-0" x="9.271" y="4.064" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
-<text x="0" y="11.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-11.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<text x="-7" y="0.25" size="1.778" layer="21" rot="R90" align="center">IN</text>
-<text x="7" y="0.5" size="1.778" layer="21" rot="R90" align="center">OUT</text>
-<wire x1="-7" y1="-4.5" x2="-7" y2="-3.5" width="0.254" layer="21"/>
-<wire x1="-7" y1="4.5" x2="-7" y2="3.5" width="0.254" layer="21"/>
-<wire x1="-7.5" y1="-4" x2="-6.5" y2="-4" width="0.254" layer="21"/>
-<wire x1="7" y1="-4.5" x2="7" y2="-3.5" width="0.254" layer="21"/>
-<wire x1="7" y1="3.5" x2="7" y2="4.5" width="0.254" layer="21"/>
-<wire x1="7.5" y1="-4" x2="6.5" y2="-4" width="0.254" layer="21"/>
-<pad name="IN+1" x="-9.271" y="-6.604" drill="1.1"/>
-<pad name="IN-1" x="-9.271" y="6.604" drill="1.1" rot="R270"/>
-<pad name="OUT-1" x="9.271" y="6.604" drill="1.1"/>
-<pad name="OUT+1" x="9.271" y="-6.604" drill="1.1"/>
-</package>
-<package name="WIRELESS-RXB6-5V">
-<description>&lt;b&gt;RF Wireless RXB6-5V Receiver&lt;/b&gt; vertically mounted</description>
-<pad name="DATA" x="17.78" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="DE" x="15.24" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="VDD@1" x="12.7" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="GND@1" x="20.32" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="ANT" x="-20.32" y="0" drill="0.9" diameter="1.9304" rot="R90"/>
-<text x="0" y="3.175" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.175" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<pad name="VDD@2" x="-12.7" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="GND@2" x="-15.24" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="GND@3" x="-17.78" y="0" drill="0.9" shape="long" rot="R270"/>
-<wire x1="-21.6" y1="-2.6" x2="21.6" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="-21.6" y1="2.7" x2="21.6" y2="2.7" width="0.127" layer="21"/>
-<wire x1="-21.6" y1="-2.6" x2="-21.6" y2="2.7" width="0.127" layer="21"/>
-<wire x1="21.6" y1="-2.7" x2="21.6" y2="2.6" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DC-DC-STEP-DOWN-MP1584">
-<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584&lt;/b&gt; chip</description>
-<pin name="IN+" x="-15.24" y="5.08" visible="pin" length="middle"/>
-<pin name="IN-" x="-15.24" y="-5.08" visible="pin" length="middle"/>
-<pin name="OUT+" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="OUT-" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<text x="-9" y="12.25" size="1.778" layer="95">&gt;NAME</text>
-<text x="-9" y="9.5" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="WIRELESS-RXB6-5V">
-<description>&lt;b&gt;RF Wireless RXB6-5V Receiver&lt;/b&gt;</description>
-<pin name="GND" x="15.24" y="10.16" length="middle" rot="R180"/>
-<pin name="DATA" x="15.24" y="-5.08" length="middle" direction="out" rot="R180"/>
-<pin name="DE" x="15.24" y="-7.62" length="middle" direction="out" rot="R180"/>
-<pin name="VDD" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="ANT" x="15.24" y="-10.16" visible="pin" length="middle" direction="in" rot="R180"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<text x="-10.16" y="17.78" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="15.24" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DC-DC-STEP-DOWN-MP1584">
-<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584&lt;/b&gt; chip</description>
-<gates>
-<gate name="G$1" symbol="DC-DC-STEP-DOWN-MP1584" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DC-DC-STEP-DOWN-MP1584">
-<connects>
-<connect gate="G$1" pin="IN+" pad="IN+0 IN+1" route="any"/>
-<connect gate="G$1" pin="IN-" pad="IN-0 IN-1" route="any"/>
-<connect gate="G$1" pin="OUT+" pad="OUT+0 OUT+1" route="any"/>
-<connect gate="G$1" pin="OUT-" pad="OUT-0 OUT-1" route="any"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WIRELESS-RXB6-5V" prefix="M">
-<description>&lt;b&gt;RF Wireless RXB6-5V Receiver&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="WIRELESS-RXB6-5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WIRELESS-RXB6-5V">
-<connects>
-<connect gate="G$1" pin="ANT" pad="ANT"/>
-<connect gate="G$1" pin="DATA" pad="DATA"/>
-<connect gate="G$1" pin="DE" pad="DE"/>
-<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3" route="any"/>
-<connect gate="G$1" pin="VDD" pad="VDD@1 VDD@2" route="any"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="capacitor-wima">
 <description>&lt;b&gt;WIMA Capacitors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -9180,8 +9050,35 @@ All pins connected</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="homematic">
+<library name="modules">
+<description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
+The modules are intend to work with microprocessor-based platforms such as &lt;a href="http://arduino.cc"&gt;Arduino&lt;/a&gt;, &lt;a href="http://raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, &lt;a href="http://cubieboard.org/"&gt;CubieBoard&lt;/a&gt;, &lt;a href="http://beagleboard.org/"&gt;BeagleBone&lt;/a&gt; and many others. There are many manufacturers of the modules in the world. Almost all of them can be bought on &lt;a href="ebay.com"&gt;ebay.com&lt;/a&gt;.&lt;br&gt;
+&lt;br&gt;
+By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
+&lt;br&gt;
+&lt;i&gt;Created by: Alexander Falkenstern&lt;/i&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Released under the Open Hardware License: &lt;a href="http://www.ohwr.org/licenses/cern-ohl/v1.2"&gt;http://www.ohwr.org/licenses/cern-ohl/v1.2&lt;/a&gt;&lt;/i&gt;
+&lt;br&gt;&lt;br&gt;</description>
 <packages>
+<package name="WIRELESS-RXB6-5V">
+<description>&lt;b&gt;RF Wireless RXB6-5V Receiver&lt;/b&gt; vertically mounted</description>
+<pad name="DATA" x="17.78" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="DE" x="15.24" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="VDD@1" x="12.7" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="GND@1" x="20.32" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="ANT" x="-20.32" y="0" drill="0.9" diameter="1.9304" rot="R90"/>
+<text x="0" y="3.175" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.175" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<pad name="VDD@2" x="-12.7" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="GND@2" x="-15.24" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="GND@3" x="-17.78" y="0" drill="0.9" shape="long" rot="R270"/>
+<wire x1="-21.6" y1="-2.6" x2="21.6" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-21.6" y1="2.7" x2="21.6" y2="2.7" width="0.127" layer="21"/>
+<wire x1="-21.6" y1="-2.6" x2="-21.6" y2="2.7" width="0.127" layer="21"/>
+<wire x1="21.6" y1="-2.7" x2="21.6" y2="2.6" width="0.127" layer="21"/>
+</package>
 <package name="CC1101">
 <wire x1="-9.45" y1="8.5" x2="9.45" y2="8.5" width="0.127" layer="21"/>
 <wire x1="9.45" y1="8.5" x2="9.45" y2="-8.5" width="0.127" layer="21"/>
@@ -9201,8 +9098,47 @@ All pins connected</description>
 <text x="-9" y="9" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-9" y="-9" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
+<package name="DC-DC-STEP-DOWN-MP1584">
+<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584-ADJ&lt;/b&gt; chip</description>
+<wire x1="-11.049" y1="8.382" x2="11.049" y2="8.382" width="0.127" layer="21"/>
+<wire x1="11.049" y1="8.382" x2="11.049" y2="-8.382" width="0.127" layer="21"/>
+<wire x1="11.049" y1="-8.382" x2="-11.049" y2="-8.382" width="0.127" layer="21"/>
+<wire x1="-11.049" y1="-8.382" x2="-11.049" y2="8.382" width="0.127" layer="21"/>
+<pad name="IN-0" x="-9.271" y="4.064" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
+<pad name="IN+0" x="-9.271" y="-4.064" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
+<pad name="OUT+0" x="9.271" y="-4.064" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
+<pad name="OUT-0" x="9.271" y="4.064" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
+<text x="0" y="11.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="-7" y="0.25" size="1.778" layer="21" rot="R90" align="center">IN</text>
+<text x="7" y="0.5" size="1.778" layer="21" rot="R90" align="center">OUT</text>
+<wire x1="-7" y1="-4.5" x2="-7" y2="-3.5" width="0.254" layer="21"/>
+<wire x1="-7" y1="4.5" x2="-7" y2="3.5" width="0.254" layer="21"/>
+<wire x1="-7.5" y1="-4" x2="-6.5" y2="-4" width="0.254" layer="21"/>
+<wire x1="7" y1="-4.5" x2="7" y2="-3.5" width="0.254" layer="21"/>
+<wire x1="7" y1="3.5" x2="7" y2="4.5" width="0.254" layer="21"/>
+<wire x1="7.5" y1="-4" x2="6.5" y2="-4" width="0.254" layer="21"/>
+<pad name="IN+1" x="-9.271" y="-6.604" drill="1.1"/>
+<pad name="IN-1" x="-9.271" y="6.604" drill="1.1" rot="R270"/>
+<pad name="OUT-1" x="9.271" y="6.604" drill="1.1"/>
+<pad name="OUT+1" x="9.271" y="-6.604" drill="1.1"/>
+</package>
 </packages>
 <symbols>
+<symbol name="WIRELESS-RXB6-5V">
+<description>&lt;b&gt;RF Wireless RXB6-5V Receiver&lt;/b&gt;</description>
+<pin name="GND" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="DATA" x="15.24" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="DE" x="15.24" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="VDD" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="ANT" x="15.24" y="-10.16" visible="pin" length="middle" direction="in" rot="R180"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="15.24" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 <symbol name="CC1101">
 <wire x1="-8.89" y1="12.7" x2="8.89" y2="12.7" width="0.254" layer="94"/>
 <wire x1="8.89" y1="12.7" x2="8.89" y2="-12.7" width="0.254" layer="94"/>
@@ -9219,8 +9155,41 @@ All pins connected</description>
 <pin name="CSN" x="-13.97" y="-5.08" length="middle"/>
 <text x="-9" y="13" size="1.778" layer="95" font="vector">&gt;NAME</text>
 </symbol>
+<symbol name="DC-DC-STEP-DOWN-MP1584">
+<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584&lt;/b&gt; chip</description>
+<pin name="IN+" x="-15.24" y="5.08" visible="pin" length="middle"/>
+<pin name="IN-" x="-15.24" y="-5.08" visible="pin" length="middle"/>
+<pin name="OUT+" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT-" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-9" y="12.25" size="1.778" layer="95">&gt;NAME</text>
+<text x="-9" y="9.5" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="WIRELESS-RXB6-5V" prefix="M">
+<description>&lt;b&gt;RF Wireless RXB6-5V Receiver&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="WIRELESS-RXB6-5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WIRELESS-RXB6-5V">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="DATA" pad="DATA"/>
+<connect gate="G$1" pin="DE" pad="DE"/>
+<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3" route="any"/>
+<connect gate="G$1" pin="VDD" pad="VDD@1 VDD@2" route="any"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="CC1101">
 <gates>
 <gate name="G$1" symbol="CC1101" x="0" y="0"/>
@@ -9237,6 +9206,25 @@ All pins connected</description>
 <connect gate="G$1" pin="SI" pad="SI"/>
 <connect gate="G$1" pin="SO" pad="SO"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DC-DC-STEP-DOWN-MP1584">
+<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584&lt;/b&gt; chip</description>
+<gates>
+<gate name="G$1" symbol="DC-DC-STEP-DOWN-MP1584" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DC-DC-STEP-DOWN-MP1584">
+<connects>
+<connect gate="G$1" pin="IN+" pad="IN+0 IN+1" route="any"/>
+<connect gate="G$1" pin="IN-" pad="IN-0 IN-1" route="any"/>
+<connect gate="G$1" pin="OUT+" pad="OUT+0 OUT+1" route="any"/>
+<connect gate="G$1" pin="OUT-" pad="OUT-0 OUT-1" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9277,12 +9265,12 @@ All pins connected</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="MP1584-2" library="diy-modules" deviceset="DC-DC-STEP-DOWN-MP1584" device=""/>
-<part name="MP1584-1" library="diy-modules" deviceset="DC-DC-STEP-DOWN-MP1584" device=""/>
+<part name="MP1584-2" library="modules" deviceset="DC-DC-STEP-DOWN-MP1584" device=""/>
+<part name="MP1584-1" library="modules" deviceset="DC-DC-STEP-DOWN-MP1584" device=""/>
 <part name="D3" library="diode" deviceset="DIODE-" device="DO41-7.6" value="SB1H100"/>
 <part name="D4" library="diode" deviceset="DIODE-" device="DO41-7.6" value="SB1H100"/>
 <part name="C1" library="capacitor-wima" deviceset="C" device="2,5-3" value="100nF"/>
-<part name="RXB6" library="diy-modules" deviceset="WIRELESS-RXB6-5V" device=""/>
+<part name="RXB6" library="modules" deviceset="WIRELESS-RXB6-5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="adafruit" deviceset="MCP1700" device="TRI" value="3.3V"/>
 <part name="C2" library="capacitor-wima" deviceset="C" device="5/3" value="1uF"/>
@@ -9290,7 +9278,7 @@ All pins connected</description>
 <part name="RPI" library="raspberrypi_bastelstube_v13" deviceset="RASPI_BOARD_B+#" device="_F"/>
 <part name="X2" library="adafruit" deviceset="SMACONNECTOR" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="CC1101" library="homematic" deviceset="CC1101" device=""/>
+<part name="CC1101" library="modules" deviceset="CC1101" device=""/>
 <part name="IC2" library="adafruit" deviceset="MCP1700" device="TRI" value="3.3V"/>
 <part name="C4" library="capacitor-wima" deviceset="C" device="5/3" value="1uF"/>
 <part name="C5" library="capacitor-wima" deviceset="C" device="5/3" value="1uF"/>
