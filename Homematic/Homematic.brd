@@ -1696,46 +1696,46 @@ Comments / complaints / bug reports / suggestions to &lt;author&gt;eightbit@web.
 <hole x="3.5" y="52.5" drill="2.75"/>
 <hole x="61.5" y="3.5" drill="2.75"/>
 <hole x="61.5" y="52.5" drill="2.75"/>
-<pad name="1" x="8.37" y="51.23" drill="1" diameter="1.778" shape="square"/>
-<pad name="2" x="8.37" y="53.77" drill="1" diameter="1.778"/>
-<pad name="3" x="10.91" y="51.23" drill="1" diameter="1.778"/>
-<pad name="4" x="10.91" y="53.77" drill="1" diameter="1.778"/>
-<pad name="5" x="13.45" y="51.23" drill="1" diameter="1.778"/>
-<pad name="6" x="13.45" y="53.77" drill="1" diameter="1.778"/>
-<pad name="7" x="15.99" y="51.23" drill="1" diameter="1.778"/>
-<pad name="8" x="15.99" y="53.77" drill="1" diameter="1.778"/>
-<pad name="9" x="18.53" y="51.23" drill="1" diameter="1.778"/>
-<pad name="10" x="18.53" y="53.77" drill="1" diameter="1.778"/>
-<pad name="11" x="21.07" y="51.23" drill="1" diameter="1.778"/>
-<pad name="12" x="21.07" y="53.77" drill="1" diameter="1.778"/>
-<pad name="13" x="23.61" y="51.23" drill="1" diameter="1.778"/>
-<pad name="14" x="23.61" y="53.77" drill="1" diameter="1.778"/>
-<pad name="15" x="26.15" y="51.23" drill="1" diameter="1.778"/>
-<pad name="16" x="26.15" y="53.77" drill="1" diameter="1.778"/>
-<pad name="17" x="28.69" y="51.23" drill="1" diameter="1.778"/>
-<pad name="18" x="28.69" y="53.77" drill="1" diameter="1.778"/>
-<pad name="19" x="31.23" y="51.23" drill="1" diameter="1.778"/>
-<pad name="20" x="31.23" y="53.77" drill="1" diameter="1.778"/>
-<pad name="21" x="33.77" y="51.23" drill="1" diameter="1.778"/>
-<pad name="22" x="33.77" y="53.77" drill="1" diameter="1.778"/>
-<pad name="23" x="36.31" y="51.23" drill="1" diameter="1.778"/>
-<pad name="24" x="36.31" y="53.77" drill="1" diameter="1.778"/>
-<pad name="25" x="38.85" y="51.23" drill="1" diameter="1.778"/>
-<pad name="26" x="38.85" y="53.77" drill="1" diameter="1.778"/>
-<pad name="27" x="41.39" y="51.23" drill="1" diameter="1.778"/>
-<pad name="28" x="41.39" y="53.77" drill="1" diameter="1.778"/>
-<pad name="29" x="43.93" y="51.23" drill="1" diameter="1.778"/>
-<pad name="30" x="43.93" y="53.77" drill="1" diameter="1.778"/>
-<pad name="31" x="46.47" y="51.23" drill="1" diameter="1.778"/>
-<pad name="32" x="46.47" y="53.77" drill="1" diameter="1.778"/>
-<pad name="33" x="49.01" y="51.23" drill="1" diameter="1.778"/>
-<pad name="34" x="49.01" y="53.77" drill="1" diameter="1.778"/>
-<pad name="35" x="51.55" y="51.23" drill="1" diameter="1.778"/>
-<pad name="36" x="51.55" y="53.77" drill="1" diameter="1.778"/>
-<pad name="37" x="54.09" y="51.23" drill="1" diameter="1.778"/>
-<pad name="38" x="54.09" y="53.77" drill="1" diameter="1.778"/>
-<pad name="39" x="56.63" y="51.23" drill="1" diameter="1.778"/>
-<pad name="40" x="56.63" y="53.77" drill="1" diameter="1.778"/>
+<pad name="1" x="8.37" y="51.23" drill="1.1" shape="square"/>
+<pad name="2" x="8.37" y="53.77" drill="1.1"/>
+<pad name="3" x="10.91" y="51.23" drill="1.1"/>
+<pad name="4" x="10.91" y="53.77" drill="1.1"/>
+<pad name="5" x="13.45" y="51.23" drill="1.1"/>
+<pad name="6" x="13.45" y="53.77" drill="1.1"/>
+<pad name="7" x="15.99" y="51.23" drill="1.1"/>
+<pad name="8" x="15.99" y="53.77" drill="1.1"/>
+<pad name="9" x="18.53" y="51.23" drill="1.1"/>
+<pad name="10" x="18.53" y="53.77" drill="1.1"/>
+<pad name="11" x="21.07" y="51.23" drill="1.1"/>
+<pad name="12" x="21.07" y="53.77" drill="1.1"/>
+<pad name="13" x="23.61" y="51.23" drill="1.1"/>
+<pad name="14" x="23.61" y="53.77" drill="1.1"/>
+<pad name="15" x="26.15" y="51.23" drill="1.1"/>
+<pad name="16" x="26.15" y="53.77" drill="1.1"/>
+<pad name="17" x="28.69" y="51.23" drill="1.1"/>
+<pad name="18" x="28.69" y="53.77" drill="1.1"/>
+<pad name="19" x="31.23" y="51.23" drill="1.1"/>
+<pad name="20" x="31.23" y="53.77" drill="1.1"/>
+<pad name="21" x="33.77" y="51.23" drill="1.1"/>
+<pad name="22" x="33.77" y="53.77" drill="1.1"/>
+<pad name="23" x="36.31" y="51.23" drill="1.1"/>
+<pad name="24" x="36.31" y="53.77" drill="1.1"/>
+<pad name="25" x="38.85" y="51.23" drill="1.1"/>
+<pad name="26" x="38.85" y="53.77" drill="1.1"/>
+<pad name="27" x="41.39" y="51.23" drill="1.1"/>
+<pad name="28" x="41.39" y="53.77" drill="1.1"/>
+<pad name="29" x="43.93" y="51.23" drill="1.1"/>
+<pad name="30" x="43.93" y="53.77" drill="1.1"/>
+<pad name="31" x="46.47" y="51.23" drill="1.1"/>
+<pad name="32" x="46.47" y="53.77" drill="1.1"/>
+<pad name="33" x="49.01" y="51.23" drill="1.1"/>
+<pad name="34" x="49.01" y="53.77" drill="1.1"/>
+<pad name="35" x="51.55" y="51.23" drill="1.1"/>
+<pad name="36" x="51.55" y="53.77" drill="1.1"/>
+<pad name="37" x="54.09" y="51.23" drill="1.1"/>
+<pad name="38" x="54.09" y="53.77" drill="1.1"/>
+<pad name="39" x="56.63" y="51.23" drill="1.1"/>
+<pad name="40" x="56.63" y="53.77" drill="1.1"/>
 <wire x1="7.1" y1="55.04" x2="7.1" y2="52.5" width="0.127" layer="21"/>
 <wire x1="7.1" y1="52.5" x2="7.1" y2="49.96" width="0.127" layer="21"/>
 <wire x1="7.1" y1="49.96" x2="8.0525" y2="49.96" width="0.127" layer="21"/>
@@ -2247,17 +2247,17 @@ design rules under a new name.</description>
 <wire x1="10.96" y1="11.56" x2="10.96" y2="5.54" width="1.27" layer="16"/>
 <wire x1="17.63" y1="18.45" x2="17.63" y2="13.62" width="1.27" layer="16"/>
 <wire x1="17.63" y1="13.62" x2="16.51" y2="12.5" width="1.27" layer="16"/>
-<contactref element="RPI" pad="6" route="any" routetag="G$1.GND"/>
-<contactref element="RPI" pad="9" route="any" routetag="G$1.GND"/>
-<contactref element="RPI" pad="14" route="any" routetag="G$1.GND"/>
-<contactref element="RPI" pad="20" route="any" routetag="G$1.GND"/>
-<contactref element="RPI" pad="25" route="any" routetag="G$1.GND"/>
-<contactref element="RPI" pad="30" route="any" routetag="G$1.GND"/>
-<contactref element="RPI" pad="34" route="any" routetag="G$1.GND"/>
-<contactref element="RPI" pad="39" route="any" routetag="G$1.GND"/>
 <contactref element="RXB8" pad="GND@1" route="any" routetag="G$1.GND"/>
 <contactref element="RXB8" pad="GND@2" route="any" routetag="G$1.GND"/>
 <contactref element="C1" pad="2"/>
+<contactref element="RPI" pad="6" route="any" routetag="G$1.GND"/>
+<contactref element="RPI" pad="25" route="any" routetag="G$1.GND"/>
+<contactref element="RPI" pad="30" route="any" routetag="G$1.GND"/>
+<contactref element="RPI" pad="39" route="any" routetag="G$1.GND"/>
+<contactref element="RPI" pad="9" route="any" routetag="G$1.GND"/>
+<contactref element="RPI" pad="14" route="any" routetag="G$1.GND"/>
+<contactref element="RPI" pad="20" route="any" routetag="G$1.GND"/>
+<contactref element="RPI" pad="34" route="any" routetag="G$1.GND"/>
 </signal>
 <signal name="N$69">
 <contactref element="Q1" pad="S"/>
@@ -2383,8 +2383,8 @@ design rules under a new name.</description>
 <signal name="GND_A">
 </signal>
 <signal name="3V3">
-<contactref element="RPI" pad="17" route="any" routetag="G$1.3V3"/>
 <contactref element="RPI" pad="1" route="any" routetag="G$1.3V3"/>
+<contactref element="RPI" pad="17" route="any" routetag="G$1.3V3"/>
 </signal>
 <signal name="N$19">
 <contactref element="CC1101" pad="GDO0"/>
