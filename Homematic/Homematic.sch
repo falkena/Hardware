@@ -9087,13 +9087,13 @@ By using this library, you can design a PCB for devices created with usage of mo
 <pad name="VDD@1" x="14.5" y="0" drill="0.9" shape="long" rot="R90"/>
 <pad name="GND@1" x="9.5" y="0" drill="0.9" shape="long" rot="R90"/>
 <pad name="ANT" x="-14.5" y="0" drill="0.9" diameter="1.9304" rot="R90"/>
-<text x="0" y="3.175" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.175" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.9" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 <pad name="GND@2" x="-12" y="0" drill="0.9" shape="long" rot="R270"/>
-<wire x1="-15.6" y1="-2.6" x2="15.6" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="-15.6" y1="2.7" x2="15.6" y2="2.7" width="0.127" layer="21"/>
-<wire x1="-15.6" y1="-2.6" x2="-15.6" y2="2.7" width="0.127" layer="21"/>
-<wire x1="15.6" y1="-2.6" x2="15.6" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-15.6" y1="-5.3" x2="15.6" y2="-5.3" width="0.127" layer="21"/>
+<wire x1="-15.6" y1="1.4" x2="15.6" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-15.6" y1="-5.3" x2="-15.6" y2="1.4" width="0.127" layer="21"/>
+<wire x1="15.6" y1="-5.3" x2="15.6" y2="1.4" width="0.127" layer="21"/>
 </package>
 <package name="CC1101">
 <wire x1="-9.45" y1="8.5" x2="9.45" y2="8.5" width="0.127" layer="21"/>
@@ -9309,6 +9309,12 @@ By using this library, you can design a PCB for devices created with usage of mo
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="0204/5" value="100R">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C7" library="capacitor-wima" deviceset="C" device="2,5-3" value="0.22uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -9338,17 +9344,17 @@ By using this library, you can design a PCB for devices created with usage of mo
 <attribute name="VALUE" x="35.56" y="81.28" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND2" gate="1" x="256.54" y="27.94"/>
-<instance part="Q1" gate="1" x="208.28" y="27.94" smashed="yes">
-<attribute name="OC_FARNELL" x="208.28" y="27.94" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="208.28" y="27.94" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="208.28" y="27.94" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="NAME" x="205.74" y="25.4" size="1.778" layer="95" align="top-right"/>
-<attribute name="VALUE" x="205.74" y="30.48" size="1.778" layer="96" align="bottom-right"/>
+<instance part="Q1" gate="1" x="198.12" y="25.4" smashed="yes">
+<attribute name="OC_FARNELL" x="198.12" y="25.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MF" x="198.12" y="25.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="198.12" y="25.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="195.58" y="22.86" size="1.778" layer="95" align="top-right"/>
+<attribute name="VALUE" x="195.58" y="27.94" size="1.778" layer="96" align="bottom-right"/>
 </instance>
-<instance part="R1" gate="G$1" x="203.2" y="17.78" rot="MR0">
-<attribute name="OC_FARNELL" x="203.2" y="17.78" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MF" x="203.2" y="17.78" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MPN" x="203.2" y="17.78" size="1.778" layer="96" rot="MR270" display="off"/>
+<instance part="R1" gate="G$1" x="193.04" y="15.24" rot="MR0">
+<attribute name="OC_FARNELL" x="193.04" y="15.24" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MF" x="193.04" y="15.24" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MPN" x="193.04" y="15.24" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="MP1584-2" gate="G$1" x="50.8" y="93.98"/>
 <instance part="MP1584-1" gate="G$1" x="50.8" y="63.5" rot="MR180"/>
@@ -9396,14 +9402,23 @@ By using this library, you can design a PCB for devices created with usage of mo
 <attribute name="MF" x="198.12" y="91.44" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MPN" x="198.12" y="91.44" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="GND6" gate="1" x="203.2" y="40.64"/>
-<instance part="C1" gate="G$1" x="203.2" y="50.8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="205.74" y="48.641" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="196.85" y="46.101" size="1.778" layer="96" rot="MR90"/>
+<instance part="GND6" gate="1" x="200.66" y="40.64"/>
+<instance part="C1" gate="G$1" x="200.66" y="50.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="203.2" y="48.641" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="194.31" y="46.101" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="P+4" gate="1" x="203.2" y="58.42"/>
+<instance part="P+4" gate="1" x="200.66" y="58.42"/>
 <instance part="+3V1" gate="G$1" x="213.36" y="129.54"/>
-<instance part="+3V2" gate="G$1" x="193.04" y="27.94" rot="R90"/>
+<instance part="+3V2" gate="G$1" x="180.34" y="25.4" rot="R90"/>
+<instance part="R3" gate="G$1" x="205.74" y="30.48" rot="MR0">
+<attribute name="OC_FARNELL" x="205.74" y="30.48" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MF" x="205.74" y="30.48" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MPN" x="205.74" y="30.48" size="1.778" layer="96" rot="MR270" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="210.82" y="40.64" smashed="yes" rot="MR0">
+<attribute name="NAME" x="213.36" y="38.481" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="204.47" y="35.941" size="1.778" layer="96" rot="MR90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9522,32 +9537,24 @@ By using this library, you can design a PCB for devices created with usage of mo
 <segment>
 <pinref part="RXB8" gate="G$1" pin="GND"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="215.9" y1="45.72" x2="203.2" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="45.72" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="45.72" x2="210.82" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="45.72" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<junction x="203.2" y="45.72"/>
-</segment>
-</net>
-<net name="N$69" class="0">
-<segment>
-<pinref part="Q1" gate="1" pin="S"/>
-<wire x1="210.82" y1="22.86" x2="210.82" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="17.78" x2="210.82" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="17.78" x2="210.82" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="12.7" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="12.7" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<junction x="210.82" y="17.78"/>
-<pinref part="RPI" gate="G$1" pin="GPIO26"/>
-<wire x1="134.62" y1="45.72" x2="144.78" y2="45.72" width="0.1524" layer="91"/>
+<junction x="200.66" y="45.72"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="43.18" x2="210.82" y2="45.72" width="0.1524" layer="91"/>
+<junction x="210.82" y="45.72"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="Q1" gate="1" pin="D"/>
-<wire x1="210.82" y1="35.56" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="35.56" x2="215.9" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="RXB8" gate="G$1" pin="DATA"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="35.56" x2="210.82" y2="30.48" width="0.1524" layer="91"/>
+<junction x="210.82" y="35.56"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9696,13 +9703,13 @@ By using this library, you can design a PCB for devices created with usage of mo
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="55.88" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="53.34" x2="210.82" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="55.88" x2="200.66" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="53.34" x2="210.82" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="53.34" x2="210.82" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="RXB8" gate="G$1" pin="VDD"/>
 <wire x1="210.82" y1="48.26" x2="215.9" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<junction x="203.2" y="53.34"/>
+<junction x="200.66" y="53.34"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -9731,11 +9738,11 @@ By using this library, you can design a PCB for devices created with usage of mo
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="1" pin="G"/>
-<wire x1="203.2" y1="27.94" x2="198.12" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="27.94" x2="198.12" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="25.4" x2="187.96" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="25.4" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="198.12" y1="27.94" x2="195.58" y2="27.94" width="0.1524" layer="91"/>
-<junction x="198.12" y="27.94"/>
+<wire x1="187.96" y1="25.4" x2="182.88" y2="25.4" width="0.1524" layer="91"/>
+<junction x="187.96" y="25.4"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9748,6 +9755,26 @@ By using this library, you can design a PCB for devices created with usage of mo
 <wire x1="116.84" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="127" y1="68.58" x2="127" y2="58.42" width="0.1524" layer="91"/>
 <junction x="127" y="58.42"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="Q1" gate="1" pin="D"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<wire x1="134.62" y1="10.16" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="RPI" gate="G$1" pin="GPIO26"/>
+<wire x1="134.62" y1="45.72" x2="144.78" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="1" pin="S"/>
+<wire x1="200.66" y1="20.32" x2="200.66" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="15.24" x2="200.66" y2="15.24" width="0.1524" layer="91"/>
+<junction x="200.66" y="15.24"/>
+<wire x1="200.66" y1="15.24" x2="200.66" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="10.16" x2="200.66" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
