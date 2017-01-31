@@ -9314,7 +9314,7 @@ By using this library, you can design a PCB for devices created with usage of mo
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C7" library="capacitor-wima" deviceset="C" device="2,5-3" value="0.22uF"/>
+<part name="C7" library="capacitor-wima" deviceset="C" device="2,5-3" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -9344,17 +9344,17 @@ By using this library, you can design a PCB for devices created with usage of mo
 <attribute name="VALUE" x="35.56" y="81.28" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND2" gate="1" x="256.54" y="27.94"/>
-<instance part="Q1" gate="1" x="198.12" y="25.4" smashed="yes">
-<attribute name="OC_FARNELL" x="198.12" y="25.4" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="198.12" y="25.4" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="198.12" y="25.4" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="NAME" x="195.58" y="22.86" size="1.778" layer="95" align="top-right"/>
-<attribute name="VALUE" x="195.58" y="27.94" size="1.778" layer="96" align="bottom-right"/>
+<instance part="Q1" gate="1" x="198.12" y="22.86" smashed="yes">
+<attribute name="OC_FARNELL" x="198.12" y="22.86" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MF" x="198.12" y="22.86" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="198.12" y="22.86" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="195.58" y="20.32" size="1.778" layer="95" align="top-right"/>
+<attribute name="VALUE" x="195.58" y="25.4" size="1.778" layer="96" align="bottom-right"/>
 </instance>
-<instance part="R1" gate="G$1" x="193.04" y="15.24" rot="MR0">
-<attribute name="OC_FARNELL" x="193.04" y="15.24" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MF" x="193.04" y="15.24" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MPN" x="193.04" y="15.24" size="1.778" layer="96" rot="MR270" display="off"/>
+<instance part="R1" gate="G$1" x="193.04" y="12.7" rot="MR0">
+<attribute name="OC_FARNELL" x="193.04" y="12.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MF" x="193.04" y="12.7" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MPN" x="193.04" y="12.7" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="MP1584-2" gate="G$1" x="50.8" y="93.98"/>
 <instance part="MP1584-1" gate="G$1" x="50.8" y="63.5" rot="MR180"/>
@@ -9409,7 +9409,7 @@ By using this library, you can design a PCB for devices created with usage of mo
 </instance>
 <instance part="P+4" gate="1" x="200.66" y="58.42"/>
 <instance part="+3V1" gate="G$1" x="213.36" y="129.54"/>
-<instance part="+3V2" gate="G$1" x="180.34" y="25.4" rot="R90"/>
+<instance part="+3V2" gate="G$1" x="182.88" y="22.86" rot="R90"/>
 <instance part="R3" gate="G$1" x="205.74" y="30.48" rot="MR0">
 <attribute name="OC_FARNELL" x="205.74" y="30.48" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MF" x="205.74" y="30.48" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -9738,11 +9738,11 @@ By using this library, you can design a PCB for devices created with usage of mo
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="1" pin="G"/>
-<wire x1="193.04" y1="25.4" x2="187.96" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="25.4" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="22.86" x2="187.96" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="22.86" x2="187.96" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="187.96" y1="25.4" x2="182.88" y2="25.4" width="0.1524" layer="91"/>
-<junction x="187.96" y="25.4"/>
+<wire x1="187.96" y1="22.86" x2="185.42" y2="22.86" width="0.1524" layer="91"/>
+<junction x="187.96" y="22.86"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9761,20 +9761,21 @@ By using this library, you can design a PCB for devices created with usage of mo
 <segment>
 <pinref part="Q1" gate="1" pin="D"/>
 <pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="27.94" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<wire x1="134.62" y1="10.16" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="7.62" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="RPI" gate="G$1" pin="GPIO26"/>
 <wire x1="134.62" y1="45.72" x2="144.78" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="1" pin="S"/>
-<wire x1="200.66" y1="20.32" x2="200.66" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="17.78" x2="200.66" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="15.24" x2="200.66" y2="15.24" width="0.1524" layer="91"/>
-<junction x="200.66" y="15.24"/>
-<wire x1="200.66" y1="15.24" x2="200.66" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="10.16" x2="200.66" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="12.7" x2="200.66" y2="12.7" width="0.1524" layer="91"/>
+<junction x="200.66" y="12.7"/>
+<wire x1="200.66" y1="12.7" x2="200.66" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="7.62" x2="200.66" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
