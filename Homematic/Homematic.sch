@@ -9461,7 +9461,7 @@ By using this library, you can design a PCB for devices created with usage of mo
 <attribute name="NAME" x="203.2" y="38.481" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="194.31" y="35.941" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="GND7" gate="1" x="177.8" y="60.96" rot="R90"/>
+<instance part="GND7" gate="1" x="177.8" y="58.42"/>
 </instances>
 <busses>
 </busses>
@@ -9633,13 +9633,13 @@ By using this library, you can design a PCB for devices created with usage of mo
 </net>
 <net name="N$19" class="0">
 <segment>
-<wire x1="142.24" y1="27.94" x2="177.8" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="27.94" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="27.94" x2="180.34" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="27.94" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="CC1101" gate="G$1" pin="GDO0"/>
-<wire x1="177.8" y1="73.66" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="RPI" gate="G$1" pin="GPIO20"/>
-<wire x1="142.24" y1="27.94" x2="142.24" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="43.18" x2="144.78" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="73.66" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="27.94" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="RPI" gate="G$1" pin="GPIO12"/>
+<wire x1="142.24" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -9767,9 +9767,7 @@ By using this library, you can design a PCB for devices created with usage of mo
 </net>
 <net name="N$10" class="0">
 <segment>
-<wire x1="134.62" y1="12.7" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="RPI" gate="G$1" pin="GPIO26"/>
-<wire x1="134.62" y1="45.72" x2="144.78" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="12.7" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="1" pin="S"/>
 <wire x1="200.66" y1="22.86" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -9777,6 +9775,8 @@ By using this library, you can design a PCB for devices created with usage of mo
 <junction x="200.66" y="17.78"/>
 <wire x1="200.66" y1="17.78" x2="200.66" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="12.7" x2="200.66" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="RPI" gate="G$1" pin="GPIO21"/>
+<wire x1="134.62" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
