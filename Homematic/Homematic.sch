@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -9139,6 +9139,36 @@ By using this library, you can design a PCB for devices created with usage of mo
 <pad name="OUT-1" x="9.271" y="6.604" drill="1.1"/>
 <pad name="OUT+1" x="9.271" y="-6.604" drill="1.1"/>
 </package>
+<package name="CC1101-SMD">
+<wire x1="-9.45" y1="8.5" x2="9.45" y2="8.5" width="0.127" layer="21"/>
+<wire x1="9.45" y1="8.5" x2="9.45" y2="2.4" width="0.127" layer="21"/>
+<wire x1="9.45" y1="0.57" x2="9.45" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="9.45" y1="-1.93" x2="9.45" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="9.45" y1="-4.43" x2="9.45" y2="-8.5" width="0.127" layer="21"/>
+<wire x1="9.45" y1="-8.5" x2="-9.45" y2="-8.5" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="-8.5" x2="-9.45" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="-6.2" x2="-9.45" y2="-5.8" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="-4.2" x2="-9.45" y2="-3.8" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="-2.2" x2="-9.45" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="1.8" x2="-9.45" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="4.2" x2="-9.45" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="5.8" x2="-9.45" y2="6.2" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="7.8" x2="-9.45" y2="8.5" width="0.127" layer="21"/>
+<smd name="VCC" x="-9.565" y="7" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="GND0" x="-9.565" y="5" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="SI" x="-9.565" y="3" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="SCLK" x="-9.565" y="1" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="SO" x="-9.565" y="-1" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="GDO2" x="-9.565" y="-3" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="GDO0" x="-9.565" y="-5" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="CSN" x="-9.565" y="-7" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="ANT" x="10.075" y="-1" dx="3.81" dy="1.65" layer="1" roundness="100"/>
+<smd name="GND2" x="10.075" y="1.5" dx="3.81" dy="1.65" layer="1" roundness="100"/>
+<smd name="GND1" x="10.075" y="-3.5" dx="3.81" dy="1.65" layer="1" roundness="100"/>
+<text x="-9" y="9" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-9" y="-9" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<wire x1="-9.45" y1="-0.2" x2="-9.45" y2="0.2" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="WIRELESS-RXB8-5V">
@@ -9225,6 +9255,22 @@ By using this library, you can design a PCB for devices created with usage of mo
 <technology name=""/>
 </technologies>
 </device>
+<device name="SMD" package="CC1101-SMD">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="CSN" pad="CSN"/>
+<connect gate="G$1" pin="GDO0" pad="GDO0"/>
+<connect gate="G$1" pin="GDO2" pad="GDO2"/>
+<connect gate="G$1" pin="GND" pad="GND0 GND1 GND2" route="any"/>
+<connect gate="G$1" pin="SCLK" pad="SCLK"/>
+<connect gate="G$1" pin="SI" pad="SI"/>
+<connect gate="G$1" pin="SO" pad="SO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DC-DC-STEP-DOWN-MP1584">
@@ -9281,8 +9327,7 @@ By using this library, you can design a PCB for devices created with usage of mo
 </part>
 <part name="MP1584-2" library="modules" deviceset="DC-DC-STEP-DOWN-MP1584" device=""/>
 <part name="MP1584-1" library="modules" deviceset="DC-DC-STEP-DOWN-MP1584" device=""/>
-<part name="D3" library="diode" deviceset="DIODE-" device="DO41-7.6" value="SB1H100"/>
-<part name="D4" library="diode" deviceset="DIODE-" device="DO41-7.6" value="SB1H100"/>
+<part name="D3" library="diode" deviceset="DIODE-" device="DO41-7.6" value="SB2H100"/>
 <part name="RXB8" library="modules" deviceset="WIRELESS-RXB8-5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="adafruit" deviceset="MCP1700" device="TRI" value="3.3V"/>
@@ -9291,7 +9336,7 @@ By using this library, you can design a PCB for devices created with usage of mo
 <part name="RPI" library="raspberrypi_bastelstube_v13" deviceset="RASPI_BOARD_B+#" device="_F"/>
 <part name="X2" library="adafruit" deviceset="SMACONNECTOR" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="CC1101" library="modules" deviceset="CC1101" device=""/>
+<part name="CC1101" library="modules" deviceset="CC1101" device="SMD" value="CC1101SMD"/>
 <part name="IC2" library="adafruit" deviceset="MCP1700" device="TRI" value="3.3V"/>
 <part name="C4" library="capacitor-wima" deviceset="C" device="5/3" value="1uF"/>
 <part name="C5" library="capacitor-wima" deviceset="C" device="5/3" value="1uF"/>
@@ -9299,7 +9344,7 @@ By using this library, you can design a PCB for devices created with usage of mo
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="C6" library="capacitor-wima" deviceset="C" device="2,5-3" value="100nF"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0204/2V" value="10K">
+<part name="R2" library="rcl" deviceset="R-EU_" device="0204/7" value="10K">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -9315,12 +9360,13 @@ By using this library, you can design a PCB for devices created with usage of mo
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C7" library="capacitor-wima" deviceset="C" device="2,5-3" value="100nF"/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="12.7" y="81.28" size="1.27" layer="94" font="vector" ratio="10" rot="MR180" align="center-left">+24V</text>
-<text x="12.7" y="78.74" size="1.27" layer="94" font="vector" ratio="10" rot="MR180" align="center-left">-24V</text>
+<text x="5.08" y="81.28" size="1.27" layer="94" font="vector" ratio="10" rot="MR180" align="center-left">+24V</text>
+<text x="5.08" y="78.74" size="1.27" layer="94" font="vector" ratio="10" rot="MR180" align="center-left">-24V</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="254" y="38.1"/>
@@ -9328,7 +9374,7 @@ By using this library, you can design a PCB for devices created with usage of mo
 <attribute name="NAME" x="113.03" y="76.835" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="109.22" y="63.5" size="1.778" layer="95" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="24V" gate="G$1" x="20.32" y="81.28" rot="MR0"/>
+<instance part="24V" gate="G$1" x="12.7" y="81.28" rot="MR0"/>
 <instance part="D1" gate="1" x="88.9" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.995" y="81.534" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="91.44" y="83.82" size="1.778" layer="96" rot="R90" align="top-center"/>
@@ -9340,8 +9386,8 @@ By using this library, you can design a PCB for devices created with usage of mo
 <instance part="F1" gate="G$1" x="83.82" y="99.06" rot="R180"/>
 <instance part="F2" gate="G$1" x="81.28" y="58.42"/>
 <instance part="GND1" gate="1" x="63.5" y="78.74" rot="R270"/>
-<instance part="P+1" gate="1" x="33.02" y="81.28" smashed="yes" rot="R270">
-<attribute name="VALUE" x="35.56" y="81.28" size="1.778" layer="96" align="center-left"/>
+<instance part="P+1" gate="1" x="20.32" y="73.66" smashed="yes" rot="R180">
+<attribute name="VALUE" x="20.32" y="71.12" size="1.778" layer="96" rot="R180" align="center"/>
 </instance>
 <instance part="GND2" gate="1" x="256.54" y="27.94"/>
 <instance part="Q1" gate="1" x="198.12" y="27.94" smashed="yes">
@@ -9358,16 +9404,12 @@ By using this library, you can design a PCB for devices created with usage of mo
 </instance>
 <instance part="MP1584-2" gate="G$1" x="50.8" y="93.98"/>
 <instance part="MP1584-1" gate="G$1" x="50.8" y="63.5" rot="MR180"/>
-<instance part="D3" gate="G$1" x="30.48" y="99.06" smashed="yes">
-<attribute name="NAME" x="33.02" y="97.0026" size="1.778" layer="95"/>
-<attribute name="VALUE" x="30.48" y="101.8286" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="D4" gate="G$1" x="30.48" y="58.42" smashed="yes">
-<attribute name="NAME" x="33.02" y="58.9026" size="1.778" layer="95"/>
-<attribute name="VALUE" x="30.48" y="56.1086" size="1.778" layer="96" align="top-center"/>
+<instance part="D3" gate="G$1" x="25.4" y="81.28" smashed="yes">
+<attribute name="NAME" x="27.94" y="79.2226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="25.4" y="84.0486" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="RXB8" gate="G$1" x="229.87" y="40.64" rot="MR0"/>
-<instance part="GND3" gate="1" x="22.86" y="63.5"/>
+<instance part="GND3" gate="1" x="15.24" y="63.5"/>
 <instance part="IC1" gate="1" x="114.3" y="58.42"/>
 <instance part="C2" gate="G$1" x="101.6" y="53.34" smashed="yes">
 <attribute name="NAME" x="99.06" y="51.181" size="1.778" layer="95" rot="R90"/>
@@ -9419,24 +9461,11 @@ By using this library, you can design a PCB for devices created with usage of mo
 <attribute name="NAME" x="203.2" y="38.481" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="194.31" y="35.941" size="1.778" layer="96" rot="MR90"/>
 </instance>
+<instance part="GND7" gate="1" x="177.8" y="60.96" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="+24V" class="0">
-<segment>
-<pinref part="P+1" gate="1" pin="+24V"/>
-<wire x1="27.94" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
-<junction x="27.94" y="81.28"/>
-<pinref part="D3" gate="G$1" pin="A"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="27.94" y1="81.28" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="81.28" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
-<junction x="27.94" y="81.28"/>
-<pinref part="24V" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="81.28" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -9489,18 +9518,18 @@ By using this library, you can design a PCB for devices created with usage of mo
 <wire x1="251.46" y1="30.48" x2="256.54" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="22.86" y1="78.74" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="78.74" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="68.58" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="78.74" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="78.74" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="68.58" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="MP1584-1" gate="G$1" pin="IN-"/>
-<wire x1="22.86" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
-<junction x="22.86" y="68.58"/>
+<wire x1="15.24" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
+<junction x="15.24" y="68.58"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="24V" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
-<junction x="22.86" y="78.74"/>
+<wire x1="12.7" y1="78.74" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
+<junction x="15.24" y="78.74"/>
 <pinref part="MP1584-2" gate="G$1" pin="IN-"/>
-<wire x1="22.86" y1="88.9" x2="35.56" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="88.9" x2="35.56" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="GND1"/>
@@ -9537,13 +9566,17 @@ By using this library, you can design a PCB for devices created with usage of mo
 <segment>
 <pinref part="RXB8" gate="G$1" pin="GND"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="215.9" y1="45.72" x2="210.82" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="45.72" x2="193.04" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <junction x="200.66" y="45.72"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="43.18" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RPI" gate="G$1" pin="GND"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="177.8" y1="60.96" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9558,20 +9591,6 @@ By using this library, you can design a PCB for devices created with usage of mo
 <pinref part="MP1584-1" gate="G$1" pin="OUT+"/>
 <pinref part="F2" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="D3" gate="G$1" pin="C"/>
-<pinref part="MP1584-2" gate="G$1" pin="IN+"/>
-<wire x1="33.02" y1="99.06" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="D4" gate="G$1" pin="C"/>
-<pinref part="MP1584-1" gate="G$1" pin="IN+"/>
-<wire x1="33.02" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9775,6 +9794,30 @@ By using this library, you can design a PCB for devices created with usage of mo
 <pinref part="Q1" gate="1" pin="D"/>
 <wire x1="200.66" y1="35.56" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
 <junction x="200.66" y="35.56"/>
+</segment>
+</net>
+<net name="+24V" class="0">
+<segment>
+<pinref part="24V" gate="G$1" pin="1"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="12.7" y1="81.28" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="1" pin="+24V"/>
+<wire x1="20.32" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="81.28" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
+<junction x="20.32" y="81.28"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="27.94" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="81.28" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="MP1584-2" gate="G$1" pin="IN+"/>
+<wire x1="33.02" y1="99.06" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="81.28" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="MP1584-1" gate="G$1" pin="IN+"/>
+<wire x1="33.02" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
+<junction x="33.02" y="81.28"/>
 </segment>
 </net>
 </nets>
