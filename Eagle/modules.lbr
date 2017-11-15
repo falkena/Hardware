@@ -167,6 +167,36 @@ Source: http://www.hongfa.com/pro/pdf/HF46F_en.pdf</description>
 <wire x1="-15.6" y1="-5.3" x2="-15.6" y2="1.4" width="0.127" layer="21"/>
 <wire x1="15.6" y1="-5.3" x2="15.6" y2="1.4" width="0.127" layer="21"/>
 </package>
+<package name="CC1101-SMD">
+<wire x1="-9.45" y1="8.5" x2="9.45" y2="8.5" width="0.127" layer="21"/>
+<wire x1="9.45" y1="8.5" x2="9.45" y2="2.4" width="0.127" layer="21"/>
+<wire x1="9.45" y1="0.57" x2="9.45" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="9.45" y1="-1.93" x2="9.45" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="9.45" y1="-4.43" x2="9.45" y2="-8.5" width="0.127" layer="21"/>
+<wire x1="9.45" y1="-8.5" x2="-9.45" y2="-8.5" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="-8.5" x2="-9.45" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="-6.2" x2="-9.45" y2="-5.8" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="-4.2" x2="-9.45" y2="-3.8" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="-2.2" x2="-9.45" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="1.8" x2="-9.45" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="4.2" x2="-9.45" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="5.8" x2="-9.45" y2="6.2" width="0.127" layer="21"/>
+<wire x1="-9.45" y1="7.8" x2="-9.45" y2="8.5" width="0.127" layer="21"/>
+<smd name="VCC" x="-9.565" y="7" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="GND0" x="-9.565" y="5" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="SI" x="-9.565" y="3" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="SCLK" x="-9.565" y="1" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="SO" x="-9.565" y="-1" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="GDO2" x="-9.565" y="-3" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="GDO0" x="-9.565" y="-5" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="CSN" x="-9.565" y="-7" dx="2.54" dy="1.4" layer="1" roundness="100"/>
+<smd name="ANT" x="10.075" y="-1" dx="3.81" dy="1.65" layer="1" roundness="100"/>
+<smd name="GND2" x="10.075" y="1.5" dx="3.81" dy="1.65" layer="1" roundness="100"/>
+<smd name="GND1" x="10.075" y="-3.5" dx="3.81" dy="1.65" layer="1" roundness="100"/>
+<text x="-9" y="9" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-9" y="-9" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<wire x1="-9.45" y1="-0.2" x2="-9.45" y2="0.2" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HM-MOD-RPI-PCB">
@@ -271,6 +301,22 @@ Source: http://www.elv.de/homematic-funkmodul-fuer-raspberry-pi-bausatz.html</de
 </gates>
 <devices>
 <device name="" package="CC1101">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="CSN" pad="CSN"/>
+<connect gate="G$1" pin="GDO0" pad="GDO0"/>
+<connect gate="G$1" pin="GDO2" pad="GDO2"/>
+<connect gate="G$1" pin="GND" pad="GND0 GND1 GND2" route="any"/>
+<connect gate="G$1" pin="SCLK" pad="SCLK"/>
+<connect gate="G$1" pin="SI" pad="SI"/>
+<connect gate="G$1" pin="SO" pad="SO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="CC1101-SMD">
 <connects>
 <connect gate="G$1" pin="ANT" pad="ANT"/>
 <connect gate="G$1" pin="CSN" pad="CSN"/>
