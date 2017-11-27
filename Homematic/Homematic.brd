@@ -2389,6 +2389,21 @@ design rules under a new name.</description>
 <via x="16.5" y="63.85" extent="1-16" drill="0.5"/>
 <via x="43" y="40.47" extent="1-16" drill="0.5"/>
 <via x="36.375" y="22.3" extent="1-16" drill="0.5"/>
+<via x="89.375" y="73.65" extent="1-16" drill="0.5"/>
+<via x="76.125" y="73.65" extent="1-16" drill="0.5"/>
+<via x="62.875" y="73.65" extent="1-16" drill="0.5"/>
+<via x="62.875" y="59.95" extent="1-16" drill="0.5"/>
+<via x="76.125" y="59.95" extent="1-16" drill="0.5"/>
+<via x="89.375" y="59.95" extent="1-16" drill="0.5"/>
+<via x="89.375" y="47.055" extent="1-16" drill="0.5"/>
+<via x="76.125" y="47.055" extent="1-16" drill="0.5"/>
+<via x="62.875" y="47.055" extent="1-16" drill="0.5"/>
+<via x="62.875" y="33.885" extent="1-16" drill="0.5"/>
+<via x="76.125" y="33.885" extent="1-16" drill="0.5"/>
+<via x="89.375" y="33.885" extent="1-16" drill="0.5"/>
+<via x="89.375" y="22.185" extent="1-16" drill="0.5"/>
+<via x="76.125" y="22.185" extent="1-16" drill="0.5"/>
+<via x="62.875" y="22.185" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="N$4">
 <contactref element="MP1584-2" pad="OUT+0" route="any" routetag="G$1.OUT+"/>
