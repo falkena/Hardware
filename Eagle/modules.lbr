@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -197,6 +197,45 @@ Source: http://www.hongfa.com/pro/pdf/HF46F_en.pdf</description>
 <text x="-9" y="-9" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 <wire x1="-9.45" y1="-0.2" x2="-9.45" y2="0.2" width="0.127" layer="21"/>
 </package>
+<package name="E07-M1101S-SMD">
+<wire x1="-9.55" y1="6.55" x2="9.55" y2="6.55" width="0.127" layer="21"/>
+<wire x1="9.55" y1="6.55" x2="9.55" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="9.55" y1="-6" x2="9.55" y2="-6.55" width="0.127" layer="21"/>
+<wire x1="9.55" y1="-6.55" x2="-9.55" y2="-6.55" width="0.127" layer="21"/>
+<wire x1="-9.55" y1="-6.55" x2="-9.55" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-9.55" y1="5.08" x2="-9.55" y2="6.55" width="0.127" layer="21"/>
+<text x="-9" y="6.98" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-9" y="-6.98" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<smd name="GDO2" x="-10" y="-4.445" dx="2.54" dy="0.9652" layer="1" roundness="100"/>
+<smd name="SO" x="-10" y="-3.175" dx="2.54" dy="0.9652" layer="1" roundness="100"/>
+<smd name="SI" x="-10" y="-1.905" dx="2.54" dy="0.9652" layer="1" roundness="100"/>
+<smd name="SCLK" x="-10" y="-0.635" dx="2.54" dy="0.9652" layer="1" roundness="100"/>
+<smd name="CSN" x="-10" y="0.635" dx="2.54" dy="0.9652" layer="1" roundness="100"/>
+<smd name="GDO0" x="-10" y="1.905" dx="2.54" dy="0.9652" layer="1" roundness="100"/>
+<smd name="VCC" x="-10" y="3.175" dx="2.54" dy="0.9652" layer="1" roundness="100"/>
+<smd name="GND0" x="-10" y="4.445" dx="2.54" dy="0.9652" layer="1" roundness="100"/>
+<smd name="GND1" x="10" y="-2.945" dx="2.54" dy="0.9652" layer="1" roundness="100"/>
+<smd name="ANT" x="10" y="-5.295" dx="2.54" dy="0.9652" layer="1" roundness="100"/>
+<wire x1="9.55" y1="-3.65" x2="9.55" y2="-4.6" width="0.127" layer="21"/>
+</package>
+<package name="E07-M1101S">
+<wire x1="-9.55" y1="6.55" x2="9.55" y2="6.55" width="0.127" layer="21"/>
+<wire x1="9.55" y1="6.55" x2="9.55" y2="-6.55" width="0.127" layer="21"/>
+<wire x1="9.55" y1="-6.55" x2="-9.55" y2="-6.55" width="0.127" layer="21"/>
+<wire x1="-9.55" y1="-6.55" x2="-9.55" y2="6.55" width="0.127" layer="21"/>
+<pad name="SCLK" x="-8.265" y="-0.635" drill="0.5" rot="R180"/>
+<pad name="SO" x="-8.265" y="-3.175" drill="0.5"/>
+<pad name="GDO2" x="-8.265" y="-4.445" drill="0.5"/>
+<pad name="GDO0" x="-8.265" y="1.905" drill="0.5"/>
+<pad name="SI" x="-8.265" y="-1.905" drill="0.5"/>
+<pad name="GND0" x="-8.265" y="4.445" drill="0.5"/>
+<pad name="VCC" x="-8.265" y="3.175" drill="0.5"/>
+<pad name="CSN" x="-8.265" y="0.635" drill="0.5"/>
+<pad name="ANT" x="8.415" y="-5.295" drill="0.5"/>
+<pad name="GND1" x="8.415" y="-2.945" drill="0.5"/>
+<text x="-9" y="7.73" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-9" y="-7.73" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="HM-MOD-RPI-PCB">
@@ -323,6 +362,38 @@ Source: http://www.elv.de/homematic-funkmodul-fuer-raspberry-pi-bausatz.html</de
 <connect gate="G$1" pin="GDO0" pad="GDO0"/>
 <connect gate="G$1" pin="GDO2" pad="GDO2"/>
 <connect gate="G$1" pin="GND" pad="GND0 GND1 GND2" route="any"/>
+<connect gate="G$1" pin="SCLK" pad="SCLK"/>
+<connect gate="G$1" pin="SI" pad="SI"/>
+<connect gate="G$1" pin="SO" pad="SO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E07-SMD" package="E07-M1101S-SMD">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="CSN" pad="CSN"/>
+<connect gate="G$1" pin="GDO0" pad="GDO0"/>
+<connect gate="G$1" pin="GDO2" pad="GDO2"/>
+<connect gate="G$1" pin="GND" pad="GND0 GND1" route="any"/>
+<connect gate="G$1" pin="SCLK" pad="SCLK"/>
+<connect gate="G$1" pin="SI" pad="SI"/>
+<connect gate="G$1" pin="SO" pad="SO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E07-DRILL" package="E07-M1101S">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="CSN" pad="CSN"/>
+<connect gate="G$1" pin="GDO0" pad="GDO0"/>
+<connect gate="G$1" pin="GDO2" pad="GDO2"/>
+<connect gate="G$1" pin="GND" pad="GND0 GND1" route="any"/>
 <connect gate="G$1" pin="SCLK" pad="SCLK"/>
 <connect gate="G$1" pin="SI" pad="SI"/>
 <connect gate="G$1" pin="SO" pad="SO"/>
