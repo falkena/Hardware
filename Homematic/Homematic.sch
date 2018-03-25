@@ -10073,14 +10073,14 @@ By using this library, you can design a PCB for devices created with usage of mo
 <wire x1="-9.55" y1="5" x2="-9.55" y2="6.55" width="0.127" layer="21"/>
 <text x="-9" y="7" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-9" y="-7" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
-<smd name="GDO2" x="-9.9" y="-4.445" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
-<smd name="SO" x="-9.9" y="-3.175" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
-<smd name="SI" x="-9.9" y="-1.905" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
-<smd name="SCLK" x="-9.9" y="-0.635" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
-<smd name="CSN" x="-9.9" y="0.635" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
-<smd name="GDO0" x="-9.9" y="1.905" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
-<smd name="VCC" x="-9.9" y="3.175" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
-<smd name="GND0" x="-9.9" y="4.445" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
+<smd name="GDO2" x="-9.9" y="-3.175" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
+<smd name="SO" x="-9.9" y="-1.905" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
+<smd name="SI" x="-9.9" y="-0.635" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
+<smd name="SCLK" x="-9.9" y="0.635" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
+<smd name="CSN" x="-9.9" y="1.905" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
+<smd name="GDO0" x="-9.9" y="3.175" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
+<smd name="VCC" x="-9.9" y="4.445" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
+<smd name="GND0" x="-9.9" y="-4.445" dx="1.778" dy="0.9144" layer="1" roundness="100"/>
 <smd name="GND1" x="10.25" y="-2.945" dx="2.54" dy="1.4986" layer="1" roundness="100"/>
 <smd name="ANT" x="10.25" y="-5.295" dx="2.54" dy="1.4986" layer="1" roundness="100"/>
 <wire x1="9.55" y1="-3.85" x2="9.55" y2="-4.4" width="0.127" layer="21"/>
@@ -10090,14 +10090,14 @@ By using this library, you can design a PCB for devices created with usage of mo
 <wire x1="9.55" y1="6.55" x2="9.55" y2="-6.55" width="0.127" layer="21"/>
 <wire x1="9.55" y1="-6.55" x2="-9.55" y2="-6.55" width="0.127" layer="21"/>
 <wire x1="-9.55" y1="-6.55" x2="-9.55" y2="6.55" width="0.127" layer="21"/>
-<pad name="SCLK" x="-8.25" y="-0.635" drill="0.7" shape="long" rot="R180"/>
-<pad name="SO" x="-8.25" y="-3.175" drill="0.7" shape="long"/>
-<pad name="GDO2" x="-8.25" y="-4.445" drill="0.7" shape="long"/>
-<pad name="GDO0" x="-8.25" y="1.905" drill="0.7" shape="long"/>
-<pad name="SI" x="-8.25" y="-1.905" drill="0.7" shape="long"/>
-<pad name="GND0" x="-8.25" y="4.445" drill="0.7" shape="long"/>
-<pad name="VCC" x="-8.25" y="3.175" drill="0.7" shape="long"/>
-<pad name="CSN" x="-8.25" y="0.635" drill="0.7" shape="long"/>
+<pad name="SCLK" x="-8.25" y="0.635" drill="0.7" shape="long" rot="R180"/>
+<pad name="SO" x="-8.25" y="-1.905" drill="0.7" shape="long"/>
+<pad name="GDO2" x="-8.25" y="-3.175" drill="0.7" shape="long"/>
+<pad name="GDO0" x="-8.25" y="3.175" drill="0.7" shape="long"/>
+<pad name="SI" x="-8.25" y="-0.635" drill="0.7" shape="long"/>
+<pad name="GND0" x="-8.25" y="-4.445" drill="0.7" shape="long"/>
+<pad name="VCC" x="-8.25" y="4.445" drill="0.7" shape="long"/>
+<pad name="CSN" x="-8.25" y="1.905" drill="0.7" shape="long"/>
 <pad name="ANT" x="8.44" y="-5.32" drill="0.9" shape="long"/>
 <pad name="GND1" x="8.44" y="-2.95" drill="0.9" shape="long"/>
 <text x="-9" y="7" size="1.27" layer="25" font="vector">&gt;NAME</text>
@@ -10376,8 +10376,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="24V" library="con-wuerth" deviceset="691131710002" device=""/>
 <part name="D1" library="diode" deviceset="1N5908" device=""/>
 <part name="D2" library="diode" deviceset="1N5908" device=""/>
-<part name="F1" library="SparkFun-Fuses" deviceset="PPTC" device="PTH" value="2A"/>
-<part name="F2" library="SparkFun-Fuses" deviceset="PPTC" device="PTH" value="2A"/>
+<part name="F2" library="SparkFun-Fuses" deviceset="PPTC" device="PTH11MM" value="2.5A"/>
+<part name="F3" library="SparkFun-Fuses" deviceset="PPTC" device="PTH11MM" value="2.5A"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+24V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -10409,7 +10409,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="F3" library="SparkFun-Fuses" deviceset="PPTC" device="PTH11MM" value="3A"/>
+<part name="F1" library="SparkFun-Fuses" deviceset="PPTC" device="PTH11MM" value="3A"/>
 <part name="433MHZ" library="modules" deviceset="CC1101" device="E07-SMD" value="CC1101E07-SMD"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0204/5" value="10K">
 <attribute name="MF" value=""/>
@@ -10438,8 +10438,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="90.805" y="75.946" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="86.36" y="73.66" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="F1" gate="G$1" x="83.82" y="99.06" rot="R180"/>
-<instance part="F2" gate="G$1" x="81.28" y="58.42"/>
+<instance part="F2" gate="G$1" x="83.82" y="99.06" rot="R180"/>
+<instance part="F3" gate="G$1" x="81.28" y="58.42"/>
 <instance part="GND1" gate="1" x="68.58" y="78.74" rot="R270"/>
 <instance part="P+1" gate="1" x="15.24" y="91.44" smashed="yes">
 <attribute name="VALUE" x="15.24" y="93.98" size="1.778" layer="96" align="center"/>
@@ -10500,7 +10500,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="+3V1" gate="G$1" x="213.36" y="129.54"/>
 <instance part="+3V2" gate="G$1" x="213.36" y="66.04"/>
 <instance part="GND7" gate="1" x="177.8" y="58.42"/>
-<instance part="F3" gate="G$1" x="35.56" y="81.28" rot="R180"/>
+<instance part="F1" gate="G$1" x="35.56" y="81.28" rot="R180"/>
 <instance part="433MHZ" gate="G$1" x="229.87" y="30.48"/>
 <instance part="R1" gate="G$1" x="198.12" y="40.64" rot="MR270">
 <attribute name="OC_FARNELL" x="198.12" y="40.64" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -10624,14 +10624,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$4" class="0">
 <segment>
 <pinref part="MP1584-2" gate="G$1" pin="OUT+"/>
-<pinref part="F1" gate="G$1" pin="2"/>
+<pinref part="F2" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="MP1584-1" gate="G$1" pin="OUT+"/>
-<pinref part="F2" gate="G$1" pin="1"/>
+<pinref part="F3" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10658,7 +10658,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$5" class="0">
 <segment>
 <pinref part="D1" gate="1" pin="C"/>
-<pinref part="F1" gate="G$1" pin="1"/>
+<pinref part="F2" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="99.06" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="99.06" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
 <junction x="88.9" y="99.06"/>
@@ -10751,7 +10751,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="180.34" y="121.92"/>
 </segment>
 <segment>
-<pinref part="F2" gate="G$1" pin="2"/>
+<pinref part="F3" gate="G$1" pin="2"/>
 <pinref part="D2" gate="1" pin="C"/>
 <wire x1="88.9" y1="68.58" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="6"/>
@@ -10827,14 +10827,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="MP1584-1" gate="G$1" pin="IN+"/>
 <wire x1="40.64" y1="81.28" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="F3" gate="G$1" pin="1"/>
+<pinref part="F1" gate="G$1" pin="1"/>
 <junction x="40.64" y="81.28"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
-<pinref part="F3" gate="G$1" pin="2"/>
+<pinref part="F1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
