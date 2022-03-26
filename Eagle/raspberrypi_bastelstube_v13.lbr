@@ -3194,10 +3194,10 @@ without any drill holes</description>
 <wire x1="82" y1="56" x2="3" y2="56" width="0.254" layer="52"/>
 <wire x1="3" y1="56" x2="0" y2="53" width="0.254" layer="52" curve="90"/>
 <wire x1="0" y1="53" x2="0" y2="3" width="0.254" layer="52"/>
-<hole x="3.5" y="3.5" drill="2.75"/>
-<hole x="3.5" y="52.5" drill="2.75"/>
-<hole x="61.5" y="3.5" drill="2.75"/>
-<hole x="61.5" y="52.5" drill="2.75"/>
+<hole x="3.5" y="3.5" drill="2.7"/>
+<hole x="3.5" y="52.5" drill="2.7"/>
+<hole x="61.5" y="3.5" drill="2.7"/>
+<hole x="61.5" y="52.5" drill="2.7"/>
 <pad name="1" x="8.37" y="51.23" drill="1.1" shape="square"/>
 <pad name="2" x="8.37" y="53.77" drill="1.1"/>
 <pad name="3" x="10.91" y="51.23" drill="1.1"/>
