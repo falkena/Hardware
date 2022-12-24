@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -3301,6 +3301,70 @@ without any drill holes</description>
 <wire x1="42.6" y1="6.52" x2="36.4" y2="6.52" width="0.127" layer="52"/>
 <wire x1="36.4" y1="-0.83" x2="42.6" y2="-0.83" width="0.127" layer="52"/>
 </package>
+<package name="WAVESHARE_CM4_NANO">
+<wire x1="0" y1="38" x2="0" y2="3" width="0.254" layer="52"/>
+<wire x1="3" y1="41" x2="53" y2="41" width="0.254" layer="52"/>
+<wire x1="3" y1="0" x2="53" y2="0" width="0.254" layer="52"/>
+<wire x1="56" y1="38" x2="56" y2="3" width="0.254" layer="52"/>
+<wire x1="0" y1="38" x2="3" y2="41" width="0.254" layer="52" curve="-90"/>
+<wire x1="53" y1="41" x2="56" y2="38" width="0.254" layer="52" curve="-90"/>
+<wire x1="56" y1="3" x2="53" y2="0" width="0.254" layer="52" curve="-90"/>
+<wire x1="3" y1="0" x2="0" y2="3" width="0.254" layer="52" curve="-90"/>
+<wire x1="2.6" y1="23.04" x2="53.4" y2="23.04" width="0.127" layer="21"/>
+<pad name="1" x="3.87" y="19.23" drill="1.1" shape="square"/>
+<pad name="2" x="3.87" y="21.77" drill="1.1"/>
+<pad name="3" x="6.41" y="19.23" drill="1.1"/>
+<pad name="4" x="6.41" y="21.77" drill="1.1"/>
+<pad name="5" x="8.95" y="19.23" drill="1.1"/>
+<pad name="6" x="8.95" y="21.77" drill="1.1"/>
+<pad name="7" x="11.49" y="19.23" drill="1.1"/>
+<pad name="8" x="11.49" y="21.77" drill="1.1"/>
+<pad name="9" x="14.03" y="19.23" drill="1.1"/>
+<pad name="10" x="14.03" y="21.77" drill="1.1"/>
+<pad name="11" x="16.57" y="19.23" drill="1.1"/>
+<pad name="12" x="16.57" y="21.77" drill="1.1"/>
+<pad name="13" x="19.11" y="19.23" drill="1.1"/>
+<pad name="14" x="19.11" y="21.77" drill="1.1"/>
+<pad name="15" x="21.65" y="19.23" drill="1.1"/>
+<pad name="16" x="21.65" y="21.77" drill="1.1"/>
+<pad name="17" x="24.19" y="19.23" drill="1.1"/>
+<pad name="18" x="24.19" y="21.77" drill="1.1"/>
+<pad name="19" x="26.73" y="19.23" drill="1.1"/>
+<pad name="20" x="26.73" y="21.77" drill="1.1"/>
+<pad name="21" x="29.27" y="19.23" drill="1.1"/>
+<pad name="22" x="29.27" y="21.77" drill="1.1"/>
+<pad name="23" x="31.81" y="19.23" drill="1.1"/>
+<pad name="24" x="31.81" y="21.77" drill="1.1"/>
+<pad name="25" x="34.35" y="19.23" drill="1.1"/>
+<pad name="26" x="34.35" y="21.77" drill="1.1"/>
+<pad name="27" x="36.89" y="19.23" drill="1.1"/>
+<pad name="28" x="36.89" y="21.77" drill="1.1"/>
+<pad name="29" x="39.43" y="19.23" drill="1.1"/>
+<pad name="30" x="39.43" y="21.77" drill="1.1"/>
+<pad name="31" x="41.97" y="19.23" drill="1.1"/>
+<pad name="32" x="41.97" y="21.77" drill="1.1"/>
+<pad name="33" x="44.51" y="19.23" drill="1.1"/>
+<pad name="34" x="44.51" y="21.77" drill="1.1"/>
+<pad name="35" x="47.05" y="19.23" drill="1.1"/>
+<pad name="36" x="47.05" y="21.77" drill="1.1"/>
+<pad name="37" x="49.59" y="19.23" drill="1.1"/>
+<pad name="38" x="49.59" y="21.77" drill="1.1"/>
+<pad name="39" x="52.13" y="19.23" drill="1.1"/>
+<pad name="40" x="52.13" y="21.77" drill="1.1"/>
+<wire x1="2.6" y1="17.96" x2="3.5525" y2="17.96" width="0.127" layer="21"/>
+<wire x1="3.5525" y1="17.96" x2="4.1875" y2="17.96" width="0.127" layer="21"/>
+<wire x1="4.1875" y1="17.96" x2="5.14" y2="17.96" width="0.127" layer="21"/>
+<wire x1="5.14" y1="17.96" x2="53.4" y2="17.96" width="0.127" layer="21"/>
+<wire x1="53.4" y1="23.04" x2="53.4" y2="17.96" width="0.127" layer="21"/>
+<wire x1="2.6" y1="23.04" x2="2.6" y2="20.5" width="0.127" layer="21"/>
+<wire x1="2.6" y1="20.5" x2="2.6" y2="17.96" width="0.127" layer="21"/>
+<wire x1="2.6" y1="20.5" x2="5.14" y2="20.5" width="0.127" layer="21"/>
+<wire x1="5.14" y1="20.5" x2="5.14" y2="17.96" width="0.127" layer="21"/>
+<text x="4" y="16.25" size="1.016" layer="21" font="vector" ratio="10" align="bottom-center">1</text>
+<wire x1="3.5525" y1="17.96" x2="3.5525" y2="17.6425" width="0.127" layer="21"/>
+<wire x1="4.1875" y1="17.96" x2="4.1875" y2="17.6425" width="0.127" layer="21"/>
+<wire x1="4.1875" y1="17.6425" x2="3.5525" y2="17.6425" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RASPI_GPIO_AB">
@@ -3369,12 +3433,6 @@ Model B+ &amp;nbsp; with 9 &amp;quot;not connected&amp;quot; pins</description>
 <pin name="SPI_SCLK" x="15.24" y="10.16" length="short" rot="R180"/>
 <pin name="SPI_CE0" x="15.24" y="7.62" length="short" rot="R180"/>
 <pin name="SPI_CE1" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="N.C.0" x="15.24" y="0" length="short" direction="nc" rot="R180"/>
-<pin name="N.C.1" x="15.24" y="-2.54" length="short" direction="nc" rot="R180"/>
-<pin name="N.C.2" x="15.24" y="-5.08" length="short" direction="nc" rot="R180"/>
-<pin name="N.C.3" x="15.24" y="-7.62" length="short" direction="nc" rot="R180"/>
-<pin name="N.C.4" x="15.24" y="-10.16" length="short" direction="nc" rot="R180"/>
-<pin name="N.C.5" x="15.24" y="-12.7" length="short" direction="nc" rot="R180"/>
 <text x="13.97" y="17.78" size="1.778" layer="97" ratio="10">Model B+</text>
 <pin name="ID_SC" x="15.24" y="-33.02" length="short" direction="nc" rot="R180"/>
 <pin name="ID_SD" x="15.24" y="-35.56" length="short" direction="nc" rot="R180"/>
@@ -3387,9 +3445,6 @@ Model B+ &amp;nbsp; with 9 &amp;quot;not connected&amp;quot; pins</description>
 <pin name="GPIO26" x="-15.24" y="-22.86" length="short" direction="nc"/>
 <pin name="GPIO20" x="-15.24" y="-25.4" length="short" direction="nc"/>
 <pin name="GPIO21" x="-15.24" y="-27.94" length="short" direction="nc"/>
-<pin name="N.C.6" x="15.24" y="-15.24" length="short" direction="nc" rot="R180"/>
-<pin name="N.C.7" x="15.24" y="-17.78" length="short" direction="nc" rot="R180"/>
-<pin name="N.C.8" x="15.24" y="-20.32" length="short" direction="nc" rot="R180"/>
 </symbol>
 <symbol name="RASPI_GPIO_AB#">
 <description>Generic schematic symbol for the Raspberry Pi GPIO connector&lt;br/&gt;
@@ -3460,15 +3515,15 @@ Model B+ &amp;nbsp; all pins connected</description>
 <text x="13.97" y="17.78" size="1.778" layer="97" ratio="10">Model B+</text>
 <pin name="ID_SC" x="15.24" y="-33.02" length="short" direction="nc" rot="R180"/>
 <pin name="ID_SD" x="15.24" y="-35.56" length="short" direction="nc" rot="R180"/>
-<pin name="GPIO05" x="-15.24" y="-7.62" length="short" direction="nc"/>
-<pin name="GPIO06" x="-15.24" y="-10.16" length="short" direction="nc"/>
-<pin name="GPIO12" x="-15.24" y="-12.7" length="short" direction="nc"/>
-<pin name="GPIO13" x="-15.24" y="-15.24" length="short" direction="nc"/>
-<pin name="GPIO19" x="-15.24" y="-17.78" length="short" direction="nc"/>
-<pin name="GPIO16" x="-15.24" y="-20.32" length="short" direction="nc"/>
-<pin name="GPIO26" x="-15.24" y="-22.86" length="short" direction="nc"/>
-<pin name="GPIO20" x="-15.24" y="-25.4" length="short" direction="nc"/>
-<pin name="GPIO21" x="-15.24" y="-27.94" length="short" direction="nc"/>
+<pin name="GPIO05" x="-15.24" y="-7.62" length="short"/>
+<pin name="GPIO06" x="-15.24" y="-10.16" length="short"/>
+<pin name="GPIO12" x="-15.24" y="-12.7" length="short"/>
+<pin name="GPIO13" x="-15.24" y="-15.24" length="short"/>
+<pin name="GPIO19" x="-15.24" y="-17.78" length="short"/>
+<pin name="GPIO16" x="-15.24" y="-20.32" length="short"/>
+<pin name="GPIO26" x="-15.24" y="-22.86" length="short"/>
+<pin name="GPIO20" x="-15.24" y="-25.4" length="short"/>
+<pin name="GPIO21" x="-15.24" y="-27.94" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3926,9 +3981,9 @@ with different sets of drill holes or mounting pads for model B Revision 2.0</de
 <devices>
 <device name="_BOX" package="RASPI_GPIO_B+_BOX">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -3948,15 +4003,6 @@ with different sets of drill holes or mounting pads for model B Revision 2.0</de
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -3973,9 +4019,9 @@ with different sets of drill holes or mounting pads for model B Revision 2.0</de
 </device>
 <device name="_PIN" package="RASPI_GPIO_B+_PIN">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -3995,15 +4041,6 @@ with different sets of drill holes or mounting pads for model B Revision 2.0</de
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -4029,9 +4066,9 @@ with different sets of drill holes or mounting pads</description>
 <devices>
 <device name="_F" package="RASPI_BOARD_B+_FULL">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -4051,15 +4088,6 @@ with different sets of drill holes or mounting pads</description>
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -4076,9 +4104,9 @@ with different sets of drill holes or mounting pads</description>
 </device>
 <device name="_FP" package="RASPI_BOARD_B+_FULL_PAD">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -4098,15 +4126,6 @@ with different sets of drill holes or mounting pads</description>
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -4123,9 +4142,9 @@ with different sets of drill holes or mounting pads</description>
 </device>
 <device name="_E0" package="RASPI_BOARD_B+_EDGES_0DRILL">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -4145,15 +4164,6 @@ with different sets of drill holes or mounting pads</description>
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -4170,9 +4180,9 @@ with different sets of drill holes or mounting pads</description>
 </device>
 <device name="_E4" package="RASPI_BOARD_B+_EDGES_4DRILL">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -4192,15 +4202,6 @@ with different sets of drill holes or mounting pads</description>
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -4217,9 +4218,9 @@ with different sets of drill holes or mounting pads</description>
 </device>
 <device name="_E4P" package="RASPI_BOARD_B+_EDGES_4DRILL_PAD">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -4239,15 +4240,6 @@ with different sets of drill holes or mounting pads</description>
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -4264,9 +4256,9 @@ with different sets of drill holes or mounting pads</description>
 </device>
 <device name="_E3" package="RASPI_BOARD_B+_EDGES_3DRILL">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -4286,15 +4278,6 @@ with different sets of drill holes or mounting pads</description>
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -4311,9 +4294,9 @@ with different sets of drill holes or mounting pads</description>
 </device>
 <device name="_E3P" package="RASPI_BOARD_B+_EDGES_3DRILL_PAD">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -4333,15 +4316,6 @@ with different sets of drill holes or mounting pads</description>
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -4358,9 +4332,9 @@ with different sets of drill holes or mounting pads</description>
 </device>
 <device name="_H" package="RASPI_BOARD_B+HAT">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -4380,15 +4354,6 @@ with different sets of drill holes or mounting pads</description>
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -4405,9 +4370,9 @@ with different sets of drill holes or mounting pads</description>
 </device>
 <device name="_HD" package="RASPI_BOARD_B+HAT_DF">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -4427,15 +4392,6 @@ with different sets of drill holes or mounting pads</description>
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -4452,9 +4408,9 @@ with different sets of drill holes or mounting pads</description>
 </device>
 <device name="_HDC" package="RASPI_BOARD_B+HAT_DF_CF">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -4474,15 +4430,6 @@ with different sets of drill holes or mounting pads</description>
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -4499,9 +4446,9 @@ with different sets of drill holes or mounting pads</description>
 </device>
 <device name="_4F" package="RASPI_4_BOARD_B+_FULL">
 <connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="5V0" pad="2"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
+<connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>
@@ -4521,15 +4468,6 @@ with different sets of drill holes or mounting pads</description>
 <connect gate="G$1" pin="GPIO27" pad="13"/>
 <connect gate="G$1" pin="ID_SC" pad="28"/>
 <connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="N.C.0" pad="4"/>
-<connect gate="G$1" pin="N.C.1" pad="9"/>
-<connect gate="G$1" pin="N.C.2" pad="14"/>
-<connect gate="G$1" pin="N.C.3" pad="17"/>
-<connect gate="G$1" pin="N.C.4" pad="20"/>
-<connect gate="G$1" pin="N.C.5" pad="25"/>
-<connect gate="G$1" pin="N.C.6" pad="30"/>
-<connect gate="G$1" pin="N.C.7" pad="34"/>
-<connect gate="G$1" pin="N.C.8" pad="39"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="5"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -5536,6 +5474,44 @@ All pins connected</description>
 <connect gate="G$1" pin="3V3" pad="1 17" route="any"/>
 <connect gate="G$1" pin="5V0" pad="2 4" route="any"/>
 <connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39" route="any"/>
+<connect gate="G$1" pin="GPIO04" pad="7"/>
+<connect gate="G$1" pin="GPIO05" pad="29"/>
+<connect gate="G$1" pin="GPIO06" pad="31"/>
+<connect gate="G$1" pin="GPIO12" pad="32"/>
+<connect gate="G$1" pin="GPIO13" pad="33"/>
+<connect gate="G$1" pin="GPIO16" pad="36"/>
+<connect gate="G$1" pin="GPIO17" pad="11"/>
+<connect gate="G$1" pin="GPIO18" pad="12"/>
+<connect gate="G$1" pin="GPIO19" pad="35"/>
+<connect gate="G$1" pin="GPIO20" pad="38"/>
+<connect gate="G$1" pin="GPIO21" pad="40"/>
+<connect gate="G$1" pin="GPIO22" pad="15"/>
+<connect gate="G$1" pin="GPIO23" pad="16"/>
+<connect gate="G$1" pin="GPIO24" pad="18"/>
+<connect gate="G$1" pin="GPIO25" pad="22"/>
+<connect gate="G$1" pin="GPIO26" pad="37"/>
+<connect gate="G$1" pin="GPIO27" pad="13"/>
+<connect gate="G$1" pin="ID_SC" pad="28"/>
+<connect gate="G$1" pin="ID_SD" pad="27"/>
+<connect gate="G$1" pin="RXD" pad="10"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="3"/>
+<connect gate="G$1" pin="SPI_CE0" pad="24"/>
+<connect gate="G$1" pin="SPI_CE1" pad="26"/>
+<connect gate="G$1" pin="SPI_MISO" pad="21"/>
+<connect gate="G$1" pin="SPI_MOSI" pad="19"/>
+<connect gate="G$1" pin="SPI_SCLK" pad="23"/>
+<connect gate="G$1" pin="TXD" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_NANO" package="WAVESHARE_CM4_NANO">
+<connects>
+<connect gate="G$1" pin="3V3" pad="1 17"/>
+<connect gate="G$1" pin="5V0" pad="2 4"/>
+<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39"/>
 <connect gate="G$1" pin="GPIO04" pad="7"/>
 <connect gate="G$1" pin="GPIO05" pad="29"/>
 <connect gate="G$1" pin="GPIO06" pad="31"/>

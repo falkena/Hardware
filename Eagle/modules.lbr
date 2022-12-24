@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -111,7 +111,7 @@ Source: http://www.hongfa.com/pro/pdf/HF46F_en.pdf</description>
 <text x="-9" y="9" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-9" y="-9" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
-<package name="DC-DC-STEP-DOWN-MP1584">
+<package name="MP1584">
 <description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584-ADJ&lt;/b&gt; chip</description>
 <wire x1="-11.049" y1="8.382" x2="11.049" y2="8.382" width="0.127" layer="21"/>
 <wire x1="11.049" y1="8.382" x2="11.049" y2="-8.382" width="0.127" layer="21"/>
@@ -121,16 +121,16 @@ Source: http://www.hongfa.com/pro/pdf/HF46F_en.pdf</description>
 <pad name="IN+0" x="-9.271" y="-4.064" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
 <pad name="OUT+0" x="9.271" y="-4.064" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
 <pad name="OUT-0" x="9.271" y="4.064" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
-<text x="0" y="11.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-11.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<text x="-7" y="0.25" size="1.778" layer="21" rot="R90" align="center">IN</text>
-<text x="7" y="0.5" size="1.778" layer="21" rot="R90" align="center">OUT</text>
-<wire x1="-7" y1="-4.5" x2="-7" y2="-3.5" width="0.254" layer="21"/>
-<wire x1="-7" y1="4.5" x2="-7" y2="3.5" width="0.254" layer="21"/>
-<wire x1="-7.5" y1="-4" x2="-6.5" y2="-4" width="0.254" layer="21"/>
-<wire x1="7" y1="-4.5" x2="7" y2="-3.5" width="0.254" layer="21"/>
-<wire x1="7" y1="3.5" x2="7" y2="4.5" width="0.254" layer="21"/>
-<wire x1="7.5" y1="-4" x2="6.5" y2="-4" width="0.254" layer="21"/>
+<text x="0" y="9.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="-7" y="0" size="1.778" layer="21" rot="R90" align="center">IN</text>
+<text x="7" y="0" size="1.778" layer="21" rot="R90" align="center">OUT</text>
+<wire x1="-7" y1="-6" x2="-7" y2="-5" width="0.254" layer="21"/>
+<wire x1="-7" y1="6" x2="-7" y2="5" width="0.254" layer="21"/>
+<wire x1="-7.5" y1="-5.5" x2="-6.5" y2="-5.5" width="0.254" layer="21"/>
+<wire x1="7" y1="-6" x2="7" y2="-5" width="0.254" layer="21"/>
+<wire x1="7" y1="6" x2="7" y2="5" width="0.254" layer="21"/>
+<wire x1="7.5" y1="-5.5" x2="6.5" y2="-5.5" width="0.254" layer="21"/>
 <pad name="IN+1" x="-9.271" y="-6.604" drill="1.1"/>
 <pad name="IN-1" x="-9.271" y="6.604" drill="1.1" rot="R270"/>
 <pad name="OUT-1" x="9.271" y="6.604" drill="1.1"/>
@@ -236,6 +236,27 @@ Source: http://www.hongfa.com/pro/pdf/HF46F_en.pdf</description>
 <text x="-9" y="7" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-9" y="-7" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
+<package name="MP2482">
+<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584-ADJ&lt;/b&gt; chip</description>
+<wire x1="-15.28" y1="10.14" x2="15.28" y2="10.14" width="0.127" layer="21"/>
+<wire x1="15.28" y1="10.14" x2="15.28" y2="-10.14" width="0.127" layer="21"/>
+<wire x1="15.28" y1="-10.14" x2="-15.28" y2="-10.14" width="0.127" layer="21"/>
+<wire x1="-15.28" y1="-10.14" x2="-15.28" y2="10.14" width="0.127" layer="21"/>
+<pad name="IN-" x="-12.8615" y="7.366" drill="1.1" diameter="2.5" rot="R90"/>
+<pad name="IN+" x="-12.8615" y="-7.366" drill="1.1" diameter="2.5" rot="R270"/>
+<pad name="OUT+" x="12.8615" y="-7.366" drill="1.1" diameter="2.5" rot="R270"/>
+<pad name="OUT-" x="12.8615" y="7.366" drill="1.1" diameter="2.5" rot="R90"/>
+<text x="0" y="11.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="-12.8615" y="0" size="1.778" layer="21" rot="R90" align="center">IN</text>
+<text x="12.8615" y="0" size="1.778" layer="21" rot="R90" align="center">OUT</text>
+<wire x1="-10.5615" y1="-7.866" x2="-10.5615" y2="-6.866" width="0.254" layer="21"/>
+<wire x1="-10.5615" y1="7.866" x2="-10.5615" y2="6.866" width="0.254" layer="21"/>
+<wire x1="-11.0615" y1="-7.366" x2="-10.0615" y2="-7.366" width="0.254" layer="21"/>
+<wire x1="10.5615" y1="-7.866" x2="10.5615" y2="-6.866" width="0.254" layer="21"/>
+<wire x1="10.5615" y1="7.866" x2="10.5615" y2="6.866" width="0.254" layer="21"/>
+<wire x1="10.0615" y1="-7.366" x2="11.0615" y2="-7.366" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HM-MOD-RPI-PCB">
@@ -269,12 +290,12 @@ Source: http://www.hongfa.com/pro/pdf/HF46F_en.pdf</description>
 <pin name="CSN" x="-13.97" y="-5.08" length="middle"/>
 <text x="-9" y="13" size="1.778" layer="95" font="vector">&gt;NAME</text>
 </symbol>
-<symbol name="DC-DC-STEP-DOWN-MP1584">
+<symbol name="DC-DC-STEP-DOWN">
 <description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584&lt;/b&gt; chip</description>
-<pin name="IN+" x="-15.24" y="5.08" visible="pin" length="middle"/>
-<pin name="IN-" x="-15.24" y="-5.08" visible="pin" length="middle"/>
-<pin name="OUT+" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="OUT-" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="IN+" x="-15.24" y="5.08" visible="pin" length="middle" direction="pwr"/>
+<pin name="IN-" x="-15.24" y="-5.08" visible="pin" length="middle" direction="pwr"/>
+<pin name="OUT+" x="15.24" y="5.08" visible="pin" length="middle" direction="sup" rot="R180"/>
+<pin name="OUT-" x="15.24" y="-5.08" visible="pin" length="middle" direction="sup" rot="R180"/>
 <wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -405,18 +426,29 @@ Source: http://www.elv.de/homematic-funkmodul-fuer-raspberry-pi-bausatz.html</de
 </device>
 </devices>
 </deviceset>
-<deviceset name="DC-DC-STEP-DOWN-MP1584">
+<deviceset name="DC-DC-STEP-DOWN">
 <description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584&lt;/b&gt; chip</description>
 <gates>
-<gate name="G$1" symbol="DC-DC-STEP-DOWN-MP1584" x="0" y="0"/>
+<gate name="G$1" symbol="DC-DC-STEP-DOWN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DC-DC-STEP-DOWN-MP1584">
+<device name="MP1584" package="MP1584">
 <connects>
 <connect gate="G$1" pin="IN+" pad="IN+0 IN+1" route="any"/>
 <connect gate="G$1" pin="IN-" pad="IN-0 IN-1" route="any"/>
 <connect gate="G$1" pin="OUT+" pad="OUT+0 OUT+1" route="any"/>
 <connect gate="G$1" pin="OUT-" pad="OUT-0 OUT-1" route="any"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MP2482" package="MP2482">
+<connects>
+<connect gate="G$1" pin="IN+" pad="IN+"/>
+<connect gate="G$1" pin="IN-" pad="IN-"/>
+<connect gate="G$1" pin="OUT+" pad="OUT+"/>
+<connect gate="G$1" pin="OUT-" pad="OUT-"/>
 </connects>
 <technologies>
 <technology name=""/>
