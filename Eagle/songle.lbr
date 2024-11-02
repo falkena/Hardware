@@ -151,7 +151,7 @@
 <text x="-1.27" y="1.27" size="0.6096" layer="25">&gt;Name</text>
 <text x="-1.27" y="-1.27" size="0.6096" layer="27">&gt;Value</text>
 </package>
-<package name="SMI-2P">
+<package name="SMI">
 <wire x1="14.45" y1="6.3" x2="14.45" y2="-6.3" width="0.2032" layer="21"/>
 <wire x1="14.45" y1="-6.3" x2="-14.45" y2="-6.3" width="0.2032" layer="21"/>
 <wire x1="-14.45" y1="-6.3" x2="-14.45" y2="6.3" width="0.2032" layer="21"/>
@@ -261,14 +261,15 @@
 </devices>
 </deviceset>
 <deviceset name="SMI-2P" prefix="K">
-<description>Songle  relay (SMI-2P)</description>
+<description>Songle  relay (SMI-2P)
+Source: http://www.songlerelay.com/Public/Uploads/20190921/5d8598d95868d.pdf</description>
 <gates>
 <gate name="COIL" symbol="K" x="0" y="-7.62" addlevel="must"/>
 <gate name="SWITCH0" symbol="U" x="12.7" y="-2.54" addlevel="always" swaplevel="1"/>
 <gate name="SWITCH1" symbol="U" x="12.7" y="-17.78" addlevel="always" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="SMI-2P">
+<device name="" package="SMI">
 <connects>
 <connect gate="COIL" pin="0" pad="COIL0"/>
 <connect gate="COIL" pin="1" pad="COIL1"/>
@@ -278,6 +279,28 @@
 <connect gate="SWITCH1" pin="CLOSE" pad="CLOSE1"/>
 <connect gate="SWITCH1" pin="COMMON" pad="COMMON1"/>
 <connect gate="SWITCH1" pin="OPEN" pad="OPEN1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMIH-2P" prefix="K">
+<description>Songle  relay (SMIH-2P)
+Source: http://www.songlerelay.com/Public/Uploads/20190921/5d859903f2e85.pdf</description>
+<gates>
+<gate name="COIL" symbol="K" x="0" y="-7.62" addlevel="must"/>
+<gate name="SWITCH" symbol="U" x="15.24" y="-10.16" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="SMI">
+<connects>
+<connect gate="COIL" pin="0" pad="COIL0"/>
+<connect gate="COIL" pin="1" pad="COIL1"/>
+<connect gate="SWITCH" pin="CLOSE" pad="CLOSE0 CLOSE1"/>
+<connect gate="SWITCH" pin="COMMON" pad="COMMON0 COMMON1"/>
+<connect gate="SWITCH" pin="OPEN" pad="OPEN0 OPEN1"/>
 </connects>
 <technologies>
 <technology name=""/>
