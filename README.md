@@ -25,6 +25,18 @@ Board can be driven for example with Pi4J.
 
 Very special thanks to the guys from http://www.mikrocontroller.net
 
+Automation board
+----------------
+
+![Top view](./MainBoard/MainBoardTop.svg)
+![Bottom view](./MainBoard/MainBoardBottom.svg)
+
+Automation board for Raspberry PI. Designed to work with input voltage 15-24V.
+Provides I2C connector, two wireless receiver for 433 and 868 MHZ as well PWM
+fan 4 pin. Additional 2 pin connector can be used for shutdown with help of
+`gpio-shutdown` overlay. Required 5V supply is done via MP1584 and MP2482 based
+dc/dc step-down modules. See `modules` Eagle library for details.
+
 Rain sensor
 -----------
 
@@ -40,6 +52,5 @@ Contains some cheap DIY boards i've used. Follow components are modeled now:
 - RXB6 wireless receiver module
 - RXB8 wireless receiver module
 - CC1101 wireless transceiver/receiver module
-- MP1584 dc/dc step-down module
-
-Write me a ticket please on any questions. I'll answer a.s.a.p.
+- MP1584 based dc/dc step-down module
+- MP2482 based dc/dc step-down module
