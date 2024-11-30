@@ -25,6 +25,15 @@ Board can be driven for example with Pi4J.
 
 Very special thanks to the guys from http://www.mikrocontroller.net
 
+Rain sensor
+-----------
+
+![Top view](./Regensensor/RainSensorTop.svg)
+![Bottom view](./Regensensor/RainSensorBottom.svg)
+
+LM358 OpAmp based rain sensor detector. Designed to work with input voltage 15-24V.
+Provides input and 10V digital outputs as well possibility to control heating.
+
 Eagle
 -------
 Contains some cheap DIY boards i've used. Follow components are modeled now:
