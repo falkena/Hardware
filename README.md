@@ -46,6 +46,11 @@ Rain sensor
 LM358 OpAmp based rain sensor detector. Designed to work with input voltage 15-24V.
 Provides input and 10V digital outputs as well possibility to control heating.
 
+![Top view](./Regensensor/KammSensorTop.svg)
+![Bottom view](./Regensensor/KammSensorBottom.svg)
+
+Drop sensor is based on https://github.com/ranseyer/home-automatics/tree/master/Rain-Sensor/Kamm
+
 Eagle
 -------
 Contains some cheap DIY boards i've used. Follow components are modeled now:
