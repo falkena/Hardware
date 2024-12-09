@@ -4062,7 +4062,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="182.88" y="127" size="1.016" layer="97">8*36 Ohm in Reihe = 288 Ohm ergibt ca. 0.5W an 12V (mit 18 Ohm ergeben sich 1.9W)
+<text x="182.88" y="127" size="1.016" layer="97">8*36 Ohm in Reihe = 288 Ohm ergibt 1W an 12V (mit 18 Ohm ergeben sich 2W)
 
 Mit angegebenen Werten sind 1/8W Widerstände ausreichend</text>
 </plain>
@@ -4103,14 +4103,14 @@ Mit angegebenen Werten sind 1/8W Widerstände ausreichend</text>
 <busses>
 </busses>
 <nets>
-<net name="N$2" class="1">
+<net name="N$2" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$7" class="1">
+<net name="N$7" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="R1" gate="G$1" pin="2"/>
