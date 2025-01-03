@@ -10380,55 +10380,30 @@ By using this library, you can design a PCB for devices created with usage of mo
 <text x="-9" y="7" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-9" y="-7" size="1.27" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
-<package name="MP1584">
-<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584-ADJ&lt;/b&gt; chip</description>
-<wire x1="-11.049" y1="8.382" x2="11.049" y2="8.382" width="0.127" layer="21"/>
-<wire x1="11.049" y1="8.382" x2="11.049" y2="-8.382" width="0.127" layer="21"/>
-<wire x1="11.049" y1="-8.382" x2="-11.049" y2="-8.382" width="0.127" layer="21"/>
-<wire x1="-11.049" y1="-8.382" x2="-11.049" y2="8.382" width="0.127" layer="21"/>
-<pad name="IN-0" x="-9.271" y="4.064" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
-<pad name="IN+0" x="-9.271" y="-4.064" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
-<pad name="OUT+0" x="9.271" y="-4.064" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
-<pad name="OUT-0" x="9.271" y="4.064" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
-<text x="0" y="9.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-9.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<text x="-7" y="0" size="1.778" layer="21" rot="R90" align="center">IN</text>
-<text x="7" y="0" size="1.778" layer="21" rot="R90" align="center">OUT</text>
-<wire x1="-7" y1="-6" x2="-7" y2="-5" width="0.254" layer="21"/>
-<wire x1="-7" y1="6" x2="-7" y2="5" width="0.254" layer="21"/>
-<wire x1="-7.5" y1="-5.5" x2="-6.5" y2="-5.5" width="0.254" layer="21"/>
-<wire x1="7" y1="-6" x2="7" y2="-5" width="0.254" layer="21"/>
-<wire x1="7" y1="6" x2="7" y2="5" width="0.254" layer="21"/>
-<wire x1="7.5" y1="-5.5" x2="6.5" y2="-5.5" width="0.254" layer="21"/>
-<pad name="IN+1" x="-9.271" y="-6.604" drill="1.1"/>
-<pad name="IN-1" x="-9.271" y="6.604" drill="1.1" rot="R270"/>
-<pad name="OUT-1" x="9.271" y="6.604" drill="1.1"/>
-<pad name="OUT+1" x="9.271" y="-6.604" drill="1.1"/>
-</package>
 <package name="MP1584V">
 <description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584-ADJ&lt;/b&gt; chip</description>
-<wire x1="-5" y1="8.382" x2="11" y2="8.382" width="0.127" layer="21"/>
-<wire x1="11" y1="8.382" x2="11" y2="-8.382" width="0.127" layer="21"/>
-<wire x1="11" y1="-8.382" x2="-5" y2="-8.382" width="0.127" layer="21"/>
-<wire x1="-5" y1="-8.382" x2="-5" y2="8.382" width="0.127" layer="21"/>
-<pad name="IN-0" x="-2" y="4.064" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
-<pad name="IN+0" x="-2" y="-4.064" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
-<pad name="OUT+0" x="9" y="-4.064" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
-<pad name="OUT-0" x="9" y="4.064" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
+<wire x1="-5" y1="8.5" x2="11" y2="8.5" width="0.127" layer="21"/>
+<wire x1="11" y1="8.5" x2="11" y2="-8.5" width="0.127" layer="21"/>
+<wire x1="11" y1="-8.5" x2="-5" y2="-8.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-8.5" x2="-5" y2="8.5" width="0.127" layer="21"/>
+<pad name="IN-0" x="-2" y="4.46" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
+<pad name="IN+0" x="-2" y="-4.46" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
+<pad name="OUT+0" x="9" y="-4.46" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
+<pad name="OUT-0" x="9" y="4.46" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
 <text x="0" y="9.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-9.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 <text x="-2" y="0" size="1.778" layer="21" rot="R90" align="center">IN</text>
 <text x="9" y="0" size="1.778" layer="21" rot="R90" align="center">OUT</text>
-<wire x1="-4" y1="-6" x2="-4" y2="-5" width="0.254" layer="21"/>
-<wire x1="-4" y1="6" x2="-4" y2="5" width="0.254" layer="21"/>
-<wire x1="-4.5" y1="-5.5" x2="-3.5" y2="-5.5" width="0.254" layer="21"/>
-<wire x1="7" y1="-6" x2="7" y2="-5" width="0.254" layer="21"/>
-<wire x1="7" y1="6" x2="7" y2="5" width="0.254" layer="21"/>
-<wire x1="7.5" y1="-5.5" x2="6.5" y2="-5.5" width="0.254" layer="21"/>
-<pad name="IN+1" x="-2" y="-6.604" drill="1.1"/>
-<pad name="IN-1" x="-2" y="6.604" drill="1.1" rot="R270"/>
-<pad name="OUT-1" x="9" y="6.604" drill="1.1"/>
-<pad name="OUT+1" x="9" y="-6.604" drill="1.1"/>
+<wire x1="-4" y1="-6.23" x2="-4" y2="-5.23" width="0.254" layer="21"/>
+<wire x1="-4" y1="6.23" x2="-4" y2="5.23" width="0.254" layer="21"/>
+<wire x1="-4.5" y1="-5.73" x2="-3.5" y2="-5.73" width="0.254" layer="21"/>
+<wire x1="7" y1="-6.23" x2="7" y2="-5.23" width="0.254" layer="21"/>
+<wire x1="7" y1="6.23" x2="7" y2="5.23" width="0.254" layer="21"/>
+<wire x1="7.5" y1="-5.73" x2="6.5" y2="-5.73" width="0.254" layer="21"/>
+<pad name="IN+1" x="-2" y="-7" drill="1.1"/>
+<pad name="IN-1" x="-2" y="7" drill="1.1" rot="R270"/>
+<pad name="OUT-1" x="9" y="7" drill="1.1"/>
+<pad name="OUT+1" x="9" y="-7" drill="1.1"/>
 </package>
 <package name="MP2482V">
 <description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584-ADJ&lt;/b&gt; chip</description>
@@ -10450,6 +10425,31 @@ By using this library, you can design a PCB for devices created with usage of mo
 <wire x1="6.5" y1="-7.866" x2="6.5" y2="-6.866" width="0.254" layer="21"/>
 <wire x1="6.5" y1="7.866" x2="6.5" y2="6.866" width="0.254" layer="21"/>
 <wire x1="6" y1="-7.366" x2="7" y2="-7.366" width="0.254" layer="21"/>
+</package>
+<package name="MP1584">
+<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;MP1584-ADJ&lt;/b&gt; chip</description>
+<wire x1="-11.049" y1="8.5" x2="11.049" y2="8.5" width="0.127" layer="21"/>
+<wire x1="11.049" y1="8.5" x2="11.049" y2="-8.5" width="0.127" layer="21"/>
+<wire x1="11.049" y1="-8.5" x2="-11.049" y2="-8.5" width="0.127" layer="21"/>
+<wire x1="-11.049" y1="-8.5" x2="-11.049" y2="8.5" width="0.127" layer="21"/>
+<pad name="IN-0" x="-9.271" y="4.46" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
+<pad name="IN+0" x="-9.271" y="-4.46" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
+<pad name="OUT+0" x="9.271" y="-4.46" drill="1.1" diameter="2.5" shape="offset" rot="R270"/>
+<pad name="OUT-0" x="9.271" y="4.46" drill="1.1" diameter="2.5" shape="offset" rot="R90"/>
+<text x="0" y="9.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="-7" y="0" size="1.778" layer="21" rot="R90" align="center">IN</text>
+<text x="7" y="0" size="1.778" layer="21" rot="R90" align="center">OUT</text>
+<wire x1="-7" y1="-6.23" x2="-7" y2="-5.23" width="0.254" layer="21"/>
+<wire x1="-7" y1="6.23" x2="-7" y2="5.23" width="0.254" layer="21"/>
+<wire x1="-7.5" y1="-5.73" x2="-6.5" y2="-5.73" width="0.254" layer="21"/>
+<wire x1="7" y1="-6.23" x2="7" y2="-5.23" width="0.254" layer="21"/>
+<wire x1="7" y1="6.23" x2="7" y2="5.23" width="0.254" layer="21"/>
+<wire x1="7.5" y1="-5.73" x2="6.5" y2="-5.73" width="0.254" layer="21"/>
+<pad name="IN+1" x="-9.271" y="-7" drill="1.1"/>
+<pad name="IN-1" x="-9.271" y="7" drill="1.1" rot="R270"/>
+<pad name="OUT-1" x="9.271" y="7" drill="1.1"/>
+<pad name="OUT+1" x="9.271" y="-7" drill="1.1"/>
 </package>
 </packages>
 <symbols>
